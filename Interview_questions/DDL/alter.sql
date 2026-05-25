@@ -14,6 +14,7 @@
 
 -- Add phone_number column in customers table
 
+
 -- =========================================
 -- Question 3
 -- Topic      : ALTER TABLE
