@@ -12,7 +12,6 @@ We need to insert Data into table 3 as Final_transistion
 Trans_id Source_act_no  Target_act_no S_IFSC_code T_IFSC_CODE Branch_name Amount Transistion_date Transistion_type 
 120 rows
 
-
 Insert Into Final_transistion (Trans_id,Source_act_no,Target_act_no,S_IFSC_code,
 T_IFSC_CODE,Branch_name,Amount,Transistion_date,Transistion_type 
 ) 
@@ -37,5 +36,3 @@ Select Trans_id,
     Transistion_date,
     'NEFT' as Transistion_type 
 from NEFT_Transistion_details
-
-
