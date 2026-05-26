@@ -4,7 +4,6 @@
 -- Difficulty : Beginner
 -- =========================================
 
-
 -- Drop employees table
 
 DROP TABLE employees;
