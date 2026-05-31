@@ -1,0 +1,92 @@
+-- =========================================
+-- Question 1
+-- Topic      : ALTER TABLE
+-- Difficulty : Beginner
+-- =========================================
+
+-- Add email column in employees table
+alter table employeee_table
+add email char(60);
+
+-- =========================================
+-- Question 2
+-- Topic      : ALTER TABLE
+-- Difficulty : Beginner
+-- =========================================
+
+-- Add phone_number column in customers table
+
+alter table customer_table
+add phone_number2 char (13);
+-- =========================================
+-- Question 3
+-- Topic      : ALTER TABLE
+-- Difficulty : Beginner
+-- =========================================
+
+-- Add date_of_joining column in employees table
+alter table employeee_table
+add date_of_Joining date;
+-- =========================================
+-- Question 4
+-- Topic      : ALTER TABLE
+-- Difficulty : Beginner
+-- =========================================
+
+-- Rename column emp_name to employee_name
+-- in employees table
+alter table employees
+rename column emp_name to employee_name;
+-- =========================================
+-- Question 5
+-- Topic      : ALTER TABLE
+-- Difficulty : Beginner
+-- =========================================
+
+-- Modify salary datatype in employees table
+ALTER TABLE employees
+MODIFY salary DECIMAL(10,2);
+
+-- =========================================
+-- Question 6
+-- Topic      : ALTER TABLE
+-- Difficulty : Intermediate
+-- =========================================
+
+-- Add NOT NULL constraint on salary column
+ALTER TABLE employees
+MODIFY salary DECIMAL(10,2) not null;
+-- =========================================
+-- Question 7
+-- Topic      : ALTER TABLE
+-- Difficulty : Intermediate
+-- =========================================
+
+-- Add UNIQUE constraint on email column
+alter table employees
+add constraint email_column unique (email) ;
+
+
+-- =========================================
+-- Question 8
+-- Topic      : ALTER TABLE
+-- Difficulty : Intermediate
+-- =========================================
+
+-- Add PRIMARY KEY on product_id column
+-- =========================================
+-- Question 9
+-- Topic      : ALTER TABLE
+-- Difficulty : Intermediate
+-- =========================================
+
+-- Add DEFAULT value 'Pune' for city column
+ alter table employees 
+ alter column city set default "pune";
+ 
+
+-- =========================================
+-- Question 10
+-- Topic      : ALTER TABLE
+-- Difficulty : Intermediate
+-- =========================================
