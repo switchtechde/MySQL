@@ -5,6 +5,8 @@
 -- =========================================
 
 -- Add email column in employees table
+ALTER TABLE EMPLOYEES
+ADD email VARCHAR(255);
 
 -- =========================================
 -- Question 2
@@ -13,7 +15,8 @@
 -- =========================================
 
 -- Add phone_number column in customers table
-
+ALTER TABLE CUSTOMERS
+ADD phone_number VARCHAR(20);
 
 -- =========================================
 -- Question 3
@@ -22,6 +25,8 @@
 -- =========================================
 
 -- Add date_of_joining column in employees table
+ALTER TABLE EMPLOYEES
+ADD date_of_joining DATE;
 
 -- =========================================
 -- Question 4
@@ -31,6 +36,8 @@
 
 -- Rename column emp_name to employee_name
 -- in employees table
+ALTER TABLE EMPLOYEES
+RENAME COLUMN emp_name TO employee_name;
 
 -- =========================================
 -- Question 5
@@ -39,6 +46,8 @@
 -- =========================================
 
 -- Modify salary datatype in employees table
+ALTER TABLE EMPLOYEES
+MODIFY salary DECIMAL(10, 2);
 
 -- =========================================
 -- Question 6
@@ -47,6 +56,8 @@
 -- =========================================
 
 -- Add NOT NULL constraint on salary column
+ALTER TABLE EMPLOYEES
+MODIFY salary DECIMAL(10, 2) NOT NULL;
 
 -- =========================================
 -- Question 7
@@ -55,6 +66,8 @@
 -- =========================================
 
 -- Add UNIQUE constraint on email column
+ALTER TABLE EMPLOYEES
+ADD UNIQUE (email);
 
 -- =========================================
 -- Question 8
@@ -63,6 +76,8 @@
 -- =========================================
 
 -- Add PRIMARY KEY on product_id column
+ALTER TABLE PRODUCTS
+ADD PRIMARY KEY (product_id);
 
 -- =========================================
 -- Question 9
@@ -71,6 +86,8 @@
 -- =========================================
 
 -- Add DEFAULT value 'Pune' for city column
+ALTER TABLE EMPLOYEES
+ALTER city SET DEFAULT 'Pune';
 
 -- =========================================
 -- Question 10
@@ -79,6 +96,8 @@
 -- =========================================
 
 -- Drop phone_number column from customers table
+ALTER TABLE CUSTOMERS
+DROP COLUMN phone_number;
 
 -- =========================================
 -- Question 11
@@ -87,6 +106,8 @@
 -- =========================================
 
 -- Rename table students to student_details
+ALTER TABLE STUDENTS
+RENAME TO student_details;
 
 -- =========================================
 -- Question 12
@@ -95,6 +116,9 @@
 -- =========================================
 
 -- Add Foreign Key in orders table
+ALTER TABLE ORDERS
+ADD CONSTRAINT fk_customer_id
+FOREIGN KEY (customer_id) REFERENCES CUSTOMERS(customer_id);
 
 -- =========================================
 -- Question 13
@@ -103,6 +127,8 @@
 -- =========================================
 
 -- Increase size of product_name column
+ALTER TABLE PRODUCTS
+MODIFY product_name VARCHAR(500);
 
 -- =========================================
 -- Question 14
@@ -111,6 +137,8 @@
 -- =========================================
 
 -- Drop UNIQUE constraint from customers table
+ALTER TABLE CUSTOMERS
+DROP INDEX email;
 
 -- =========================================
 -- Question 15
@@ -119,6 +147,8 @@
 -- =========================================
 
 -- Add created_at column in orders table
+ALTER TABLE ORDERS
+ADD created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
 
 -- =========================================
 -- Question 16
@@ -127,6 +157,8 @@
 -- =========================================
 
 -- Rename transactions table to bank_transactions
+ALTER TABLE transactions
+RENAME TO bank_transactions;
 
 -- =========================================
 -- Question 17
@@ -135,6 +167,8 @@
 -- =========================================
 
 -- Add CHECK constraint on salary column
+ALTER TABLE EMPLOYEES
+ADD CONSTRAINT chk_salary CHECK (salary > 0);
 
 -- =========================================
 -- Question 18
@@ -143,6 +177,8 @@
 -- =========================================
 
 -- Drop city column from employees table
+ALTER TABLE EMPLOYEES
+DROP COLUMN city;
 
 -- =========================================
 -- Question 19
@@ -151,6 +187,8 @@
 -- =========================================
 
 -- Add status column in pipeline_execution_logs table
+ALTER TABLE pipeline_execution_logs
+ADD status VARCHAR(20) DEFAULT 'PENDING';
 
 -- =========================================
 -- Question 20
@@ -159,3 +197,5 @@
 -- =========================================
 
 -- Modify amount datatype in bank_transactions table
+ALTER TABLE bank_transactions
+MODIFY amount DECIMAL(15, 2);
