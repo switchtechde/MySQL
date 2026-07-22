@@ -1,0 +1,28 @@
+What is a DataFrame in PySpark?
+What are the different ways to create a DataFrame in PySpark?
+How do you create a DataFrame from a list of tuples?
+How do you create a DataFrame from a list of dictionaries?
+How do you create a DataFrame using a predefined schema?
+How do you create a DataFrame using StructType and StructField?
+How do you create an empty DataFrame?
+How do you create a DataFrame with Row objects?
+What is schema inference, and how does Spark infer a schema?
+What is the difference between inferred schema and explicit schema?
+Why is using an explicit schema recommended in production?
+What data types are supported in a PySpark DataFrame?
+How do you define nullable and non-nullable columns in a schema?
+What is StructType?
+What is StructField?
+What is the purpose of createDataFrame()?
+What happens if the data type in the data does not match the schema?
+How do you check the schema of a DataFrame?
+How do you display the contents of a DataFrame?
+How do you check the number of rows and columns in a DataFrame?
+How do you retrieve the column names of a DataFrame?
+What is the difference between printSchema() and schema?
+How do you change the data type of a column after creating a DataFrame?
+Can a DataFrame contain nested structures? Explain.
+How do you create a DataFrame with nested StructType fields?
+How do you create a DataFrame with ArrayType or MapType columns?
+What are the advantages of DataFrames over RDDs?
+In what scenarios would you choose an RDD instead of a DataFrame?

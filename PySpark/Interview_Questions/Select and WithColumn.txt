@@ -1,0 +1,20 @@
+What is the purpose of the select() function in PySpark?
+What is the purpose of the withColumn() function in PySpark?
+What is the difference between select() and withColumn()?
+When would you use select() instead of withColumn()?
+When would you use withColumn() instead of select()?
+Can select() be used to rename columns? If yes, how?
+Can withColumn() create a new column? Explain with an example.
+Can withColumn() modify an existing column? How?
+What happens if you use an existing column name in withColumn()?
+How do you select multiple columns using select()?
+How do you select all columns except one?
+How do you use column aliases with select()?
+Can you perform calculations inside select()? Give examples.
+Can you use SQL functions inside withColumn()?
+How do you create a conditional column using when() and otherwise() with withColumn()?
+How do you cast a column to another data type using withColumn()?
+How do you add a literal (constant) column using withColumn()?
+Can you add multiple columns using multiple withColumn() calls? Is it efficient?
+What is the difference between withColumn() and withColumns() (introduced in Spark 3.3+)?
+Which approach is more efficient when adding multiple columns: multiple withColumn() calls or a single select() expression? Why?

@@ -1,0 +1,116 @@
+What are Window Functions in PySpark?
+Why do we use Window Functions?
+What is a Window Specification?
+What is the difference between groupBy() and Window Functions?
+What are the components of a Window Specification?
+What is partitionBy() in Window Functions?
+What is orderBy() in Window Functions?
+Is partitionBy() mandatory in Window Functions?
+Is orderBy() mandatory in Window Functions?
+What happens if you don't use partitionBy()?
+What happens if you don't use orderBy()?
+What is the difference between rowsBetween() and rangeBetween()?
+What is the default window frame in Spark?
+What is a Window Frame?
+What is the difference between Row-based and Range-based windows?
+Do Window Functions cause a shuffle? Why?
+What are the performance considerations when using Window Functions?
+How does Spark execute Window Functions internally?
+Can multiple Window Functions share the same Window Specification?
+How do Window Functions differ from aggregate functions?
+
+Ranking Functions
+What is row_number()?
+When would you use row_number()?
+What is rank()?
+What is dense_rank()?
+What is the difference between rank() and dense_rank()?
+What is the difference between row_number() and rank()?
+How do ranking functions handle duplicate values?
+Can rank() be used without orderBy()?
+Can row_number() be used without partitionBy()?
+Give a real-time use case for ranking functions.
+
+Analytic Functions
+What is lag()?
+What is lead()?
+What is the difference between lag() and lead()?
+What is the default offset in lag()?
+What is the default offset in lead()?
+Can you specify a default value in lag()?
+Can lag() and lead() work without orderBy()?
+Give a real-time example of lag().
+Give a real-time example of lead().
+How do you compare current and previous records using lag()?
+
+Aggregate Window Functions
+How do you calculate a running total using Window Functions?
+How do you calculate a cumulative average?
+How do you calculate cumulative minimum and maximum?
+How do you calculate cumulative count?
+What is a moving average?
+How do you calculate a moving sum?
+How do you calculate a rolling average?
+What is the difference between cumulative and rolling calculations?
+Can aggregate functions be used as Window Functions?
+Give examples of aggregate Window Functions.
+
+What is first()?
+What is last()?
+What is first_value()?
+What is last_value()?
+What is nth_value()?
+What is the difference between first() and first_value()?
+What is the difference between last() and last_value()?
+When would you use nth_value()?
+How do you ignore NULL values in first() and last()?
+Give a business use case for value functions.
+
+How do you divide employees into salary quartiles?
+What is the business use case of percent_rank()?
+How do distribution functions handle duplicate values?
+Explain percentile-based ranking.
+
+Window Frame Questions
+What is rowsBetween()?
+What is rangeBetween()?
+What does Window.unboundedPreceding mean?
+What does Window.unboundedFollowing mean?
+What does Window.currentRow mean?
+How do you calculate a running total using rowsBetween()?
+How do you calculate a moving average of the last 3 rows?
+What is the difference between rowsBetween(-2, 0) and rangeBetween(-2, 0)?
+When should you use rowsBetween() instead of rangeBetween()?
+Give a real-time example of a window frame.
+
+Assign row numbers to employees within each department.
+Rank employees by salary within each department.
+Find the top 3 highest-paid employees in each department.
+Find the second-highest salary in each department.
+Calculate the previous month's sales using lag().
+Calculate the next month's sales using lead().
+Find the salary difference between current and previous employees.
+Calculate a running total of sales.
+Calculate a cumulative average salary.
+Calculate a moving average of the last 3 transactions.
+Calculate the first salary in each department.
+Calculate the last salary in each department.
+Find the third highest salary using nth_value().
+Divide employees into four salary groups using ntile(4).
+Calculate the percentile rank of employees based on salary.
+Calculate the cumulative distribution of sales.
+Remove duplicate records using row_number().
+Identify the latest record for each employee using row_number().
+Explain the execution plan of a Window Function using explain().
+Optimize a Window Function query for better performance.
+Advanced Interview Questions
+Do Window Functions trigger a shuffle?
+Can multiple Window Functions use the same WindowSpec?
+How do Window Functions impact Spark performance?
+How can you optimize Window Function queries?
+What happens if you omit partitionBy()?
+What happens if you omit orderBy() in ranking functions?
+Can Window Functions be used with joins?
+Can Window Functions be nested?
+What are common mistakes while using Window Functions?
+Explain a real-time project where you used Window Functions.
