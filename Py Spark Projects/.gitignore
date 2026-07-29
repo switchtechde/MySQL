@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+
+.vscode/
+
+.venv/
+venv/
+
+output/
+
+*.log
+
+.ipynb_checkpoints/
