@@ -12,8 +12,8 @@ spark = SparkSession.builder \
 # READ FROM MYSQL
 # -----------------------------
 
-# read Entire data 
-df = spark.read \
+#read data from Raw_layer_table
+raw_df = spark.read \
     .format("jdbc") \
     .option("url", "jdbc:mysql://localhost:3306/Raw_layer") \
     .option("driver", "com.mysql.cj.jdbc.Driver") \
@@ -22,31 +22,39 @@ df = spark.read \
     .option("password", "123456") \
     .load()
 
+raw_df.show()
+
+#read data from Transformed_layer_table 
+trans_df = spark.read \
+    .format("jdbc") \
+    .option("url", "jdbc:mysql://localhost:3306/transformed_layer") \
+    .option("driver", "com.mysql.cj.jdbc.Driver") \
+    .option("dbtable", "transaction_details") \
+    .option("user", "root") \
+    .option("password", "123456") \
+    .load()
+
+trans_df.show()
+
 #read Specific data instead of reading all data
 
+print("raw Count:", raw_df.count())
 
+print("transformed Count:", trans_df.count())
 
+Old_id_df = trans_df.select("transaction_id")
 
-print("Source Data:")
+print("trans_id Count:", Old_id_df.count())
 
-df.show()
-print("Source Row Count:", df.count())
+#Filtering only Those records Which are Not loaded 
+Load_df = raw_df.join(Old_id_df, raw_df.transaction_id == Old_id_df.transaction_id, "left_anti")
 
-df2 = df.withColumn("rn", row_number().over(Window.partitionBy("transaction_id").orderBy("transaction_date")))
+Load_df.show()
 
-df3 = df2.filter(col("rn") == 1)
-
-print("transformed_data_count:", df.count())
-
-df4 = df3.drop("rn")
-
-df4.show()
-
-# -----------------------------
-# WRITE TO NEW MYSQL TABLE
-# -----------------------------
-
-df4.write \
+print("load_DF Count:", Load_df.count())
+#left Semi -It will give those Records Which aare matching with left and right dataframe and give Only those Column of Left dataframe 
+#left Anti - It will give Only those records Which are not matching with left and right dataframe and give Only those Column of Left dataframe
+Load_df.write \
     .format("jdbc") \
     .option("url", "jdbc:mysql://localhost:3306/transformed_layer") \
     .option("driver", "com.mysql.cj.jdbc.Driver") \
