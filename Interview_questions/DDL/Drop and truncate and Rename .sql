@@ -5,6 +5,8 @@
 -- =========================================
 
 -- Drop employees table
+ALTER TABLE employees
+DROP TABLE;
 
 -- =========================================
 -- Question 2
@@ -13,6 +15,8 @@
 -- =========================================
 
 -- Drop students table
+ALTER TABLE students
+DROP TABLE;
 
 -- =========================================
 -- Question 3
@@ -21,6 +25,7 @@
 -- =========================================
 
 -- Remove all records from customers table
+TRUNCATE TABLE customers;
 
 -- =========================================
 -- Question 4
@@ -29,6 +34,7 @@
 -- =========================================
 
 -- Remove all records from products table
+TRUNCATE TABLE products;
 
 -- =========================================
 -- Question 5
@@ -37,6 +43,7 @@
 -- =========================================
 
 -- Drop company_database
+DROP DATABASE company_database;
 
 -- =========================================
 -- Question 6
@@ -45,6 +52,8 @@
 -- =========================================
 
 -- Drop email column from employees table
+ALTER TABLE employees
+DROP COLUMN email;
 
 -- =========================================
 -- Question 7
@@ -53,6 +62,8 @@
 -- =========================================
 
 -- Drop UNIQUE constraint from customers table
+ALTER TABLE customers
+DROP CONSTRAINT unique_email;
 
 -- =========================================
 -- Question 8
@@ -61,6 +72,7 @@
 -- =========================================
 
 -- Remove all records from bank_transactions table
+TRUNCATE TABLE bank_transactions;
 
 -- =========================================
 -- Question 9
@@ -69,6 +81,8 @@
 -- =========================================
 
 -- Drop vehicle_services table permanently
+ALTER TABLE vehicle_services
+DROP TABLE;
 
 -- =========================================
 -- Question 10
@@ -77,6 +91,9 @@
 -- =========================================
 
 -- Explain difference between DROP TABLE and TRUNCATE TABLE
+-- DROP TABLE permanently deletes the table and its data, while TRUNCATE TABLE removes all records but keeps the table structure intact. 
+-- DROP TABLE cannot be rolled back, while TRUNCATE TABLE can be rolled back in some databases. 
+-- Additionally, DROP TABLE may require more resources and time compared to TRUNCATE TABLE, especially for large tables.
 
 -- =========================================
 -- Question 1
@@ -85,6 +102,8 @@
 -- =========================================
 
 -- Rename employees table to employee_details
+ALTER TABLE employees
+RENAME TO employee_details;
 
 -- =========================================
 -- Question 2
@@ -94,6 +113,8 @@
 
 -- Rename emp_name column to employee_name
 -- in employees table
+ALTER TABLE employees
+RENAME COLUMN emp_name TO employee_name;
 
 -- =========================================
 -- Question 3
@@ -102,6 +123,8 @@
 -- =========================================
 
 -- Rename students table to student_details
+ALTER TABLE students
+RENAME TO student_details;
 
 -- =========================================
 -- Question 4
@@ -111,6 +134,8 @@
 
 -- Rename transaction_amount column to amount
 -- in transactions table
+ALTER TABLE transactions
+RENAME COLUMN transaction_amount TO amount;
 
 -- =========================================
 -- Question 5
@@ -120,3 +145,5 @@
 
 -- Rename pipeline_execution_logs table
 -- to pipeline_logs
+ALTER TABLE pipeline_execution_logs
+RENAME TO pipeline_logs;
