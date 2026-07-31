@@ -1,0 +1,109 @@
+Theory Questions
+CSV Basics
+What is a CSV file?
+How do you read a CSV file in PySpark?
+What are the mandatory parameters when reading a CSV file?
+What are the commonly used options in spark.read.csv()?
+What is the purpose of the header option?
+What is the purpose of the inferSchema option?
+Why is defining an explicit schema better than using inferSchema?
+How do you read a CSV file with a custom delimiter?
+How do you read a pipe (|) separated CSV file?
+How do you read a tab-delimited CSV file?
+How do you handle malformed records while reading CSV?
+What is the difference between PERMISSIVE, DROPMALFORMED, and FAILFAST modes?
+How do you read multiple CSV files into one DataFrame?
+How do you read all CSV files from a folder?
+Can Spark automatically infer data types from a CSV file?
+What happens if inferSchema=False?
+How do you read a CSV file without a header?
+How do you assign custom column names while reading a CSV?
+How do you handle null values while reading a CSV?
+How do you specify date and timestamp formats while reading a CSV?
+Writing CSV
+How do you write a DataFrame to a CSV file?
+What are the available write modes in PySpark?
+What is the difference between append and overwrite mode?
+What is the difference between ignore and errorIfExists mode?
+How do you write a CSV file with a header?
+How do you write a CSV file without a header?
+Why does Spark create multiple part-xxxxx.csv files?
+How do you write a single CSV file?
+What is the purpose of coalesce() before writing a CSV?
+What is the difference between coalesce() and repartition() while writing?
+Parquet Basics
+What is a Parquet file?
+Why is Parquet preferred over CSV?
+What are the advantages of Parquet?
+Is Parquet row-based or column-based?
+How does Parquet improve query performance?
+What is column pruning in Parquet?
+What is predicate pushdown in Parquet?
+Does Parquet store schema information?
+What compression formats are supported by Parquet?
+What is schema evolution in Parquet?
+Reading Parquet
+How do you read a Parquet file in PySpark?
+Can Spark automatically detect the schema of a Parquet file?
+Do you need inferSchema while reading Parquet?
+Can you read multiple Parquet files together?
+How do you read Parquet files from a folder?
+How do you merge schemas while reading Parquet files?
+What is the mergeSchema option?
+How do you read partitioned Parquet data?
+How does Spark perform partition pruning?
+What happens if Parquet files have different schemas?
+Writing Parquet
+How do you write a DataFrame to a Parquet file?
+How do you overwrite an existing Parquet file?
+How do you append data to an existing Parquet file?
+How do you partition Parquet files while writing?
+Why should you partition Parquet data?
+What is the difference between partitioning and bucketing?
+How do you compress Parquet files?
+Which compression codec is the default for Parquet?
+How do you write Parquet files using Snappy compression?
+How do you write partitioned Parquet data?
+CSV vs Parquet
+What is the difference between CSV and Parquet?
+Which format is better for analytics?
+Which format occupies less storage?
+Which format provides faster reads?
+Which format supports schema evolution?
+Which format supports predicate pushdown?
+Which format is human-readable?
+Which format is preferred in production and why?
+When would you choose CSV over Parquet?
+When would you choose Parquet over CSV?
+Practical Questions
+Read a CSV file with a header and inferred schema.
+Read a pipe-delimited CSV file.
+Read multiple CSV files into one DataFrame.
+Read all CSV files from a directory.
+Read a CSV file using an explicit schema.
+Handle malformed CSV records using PERMISSIVE mode.
+Write a DataFrame to CSV with a header.
+Write a DataFrame as a single CSV file.
+Write a CSV file in append mode.
+Write a CSV file in overwrite mode.
+Read a Parquet file.
+Read multiple Parquet files.
+Read partitioned Parquet data.
+Write a DataFrame to Parquet.
+Write partitioned Parquet files by department.
+Append data to an existing Parquet dataset.
+Compare the execution plan for reading CSV vs Parquet using explain().
+Convert a CSV file into Parquet format.
+Read a CSV file, transform the data, and write it as Parquet.
+Optimize a large CSV-to-Parquet ETL pipeline.
+Scenario-Based Questions
+Why is reading Parquet faster than CSV?
+Why shouldn't you use inferSchema in production?
+How would you process thousands of CSV files efficiently?
+How would you optimize reading very large Parquet datasets?
+What happens if one CSV file has extra columns?
+How would you handle schema changes in Parquet?
+Why does Spark create many output files when writing?
+How would you reduce the number of output files?
+Explain a real-time ETL pipeline where you read CSV and wrote Parquet.
+What best practices do you follow when reading and writing files in PySpark?

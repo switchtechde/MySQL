@@ -1,0 +1,19 @@
+What is Apache Spark?
+What are the key features of Apache Spark?
+What are the main components of Apache Spark?
+Explain the Apache Spark architecture.
+What is the role of the Driver Program in Spark?
+What is an Executor, and what are its responsibilities?
+What is a Cluster Manager? Which cluster managers does Spark support?
+What is a Worker Node?
+What is the difference between RDD, DataFrame, and Dataset?
+What are transformations and actions in Spark?
+What is lazy evaluation, and why is it important?
+What is a DAG (Directed Acyclic Graph), and how does Spark use it?
+What is the difference between a Job, Stage, and Task?
+What is a partition, and why is partitioning important in Spark?
+What is the difference between narrow and wide transformations?
+What is a shuffle operation, and why is it expensive?
+How does Spark achieve fault tolerance?
+What happens internally when you execute df.show() or df.count()?
+Explain the complete execution flow of a Spark application from submitting the job to getting the final output.

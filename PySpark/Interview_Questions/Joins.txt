@@ -1,0 +1,126 @@
+What is a join in PySpark?
+Why do we use joins in PySpark?
+What are the different types of joins available in PySpark?
+Which join is the default join in PySpark?
+What is the syntax for joining two DataFrames?
+Can we join more than two DataFrames? How?
+Can we join DataFrames with different column names?
+Can we join on multiple columns?
+What happens if duplicate column names exist after a join?
+How do you resolve duplicate columns after a join?
+
+Inner Join
+
+What is an Inner Join?
+When should you use an Inner Join?
+What happens if no matching records are found?
+How does Spark execute an Inner Join?
+Give a real-time example of an Inner Join.
+
+Left Join
+What is a Left Outer Join?
+When should you use a Left Join?
+What values are returned when no match is found?
+Give a business use case for a Left Join.
+How is a Left Join different from an Inner Join?
+
+Right Join
+What is a Right Join?
+When should you use a Right Join?
+How is a Right Join different from a Left Join?
+Is Right Join commonly used in production? Why or why not?
+Full Outer Join
+
+What is a Full Outer Join?
+When should you use a Full Join?
+How are unmatched records handled in a Full Join?
+Give a practical example of a Full Join.
+
+Cross Join
+What is a Cross Join?
+When should you use a Cross Join?
+Why is a Cross Join considered expensive?
+What happens if you accidentally perform a Cross Join?
+How do you enable Cross Join in Spark?
+
+Semi Join
+What is a Left Semi Join?
+What is returned by a Left Semi Join?
+How is a Left Semi Join different from an Inner Join?
+When would you use a Left Semi Join?
+Anti Join
+
+What is a Left Anti Join?
+What does a Left Anti Join return?
+When should you use an Anti Join?
+What is the difference between Left Anti Join and Left Join with IS NULL?
+Self Join
+
+What is a Self Join?
+Why do we use aliases in a Self Join?
+Give a real-time example of a Self Join.
+Can a DataFrame be joined with itself?
+Join Conditions
+
+How do you join on a single column?
+How do you join on multiple columns?
+How do you join using different column names?
+How do you join using complex conditions?
+Can you use expressions in join conditions?
+
+Join Optimization
+What is Broadcast Join?
+When should you use a Broadcast Join?
+What are the advantages of Broadcast Join?
+How do you perform a Broadcast Join in PySpark?
+What happens internally during a Broadcast Join?
+When should Broadcast Join not be used?
+What is the default broadcast threshold in Spark?
+Shuffle & Performance
+What is Shuffle Join?
+Why are joins expensive?
+Which joins trigger a shuffle?
+What is Sort Merge Join?
+What is Shuffle Hash Join?
+What is Broadcast Hash Join?
+How does Spark decide which join strategy to use?
+What is Adaptive Query Execution (AQE), and how does it optimize joins?
+How do partitioning and bucketing improve join performance?
+How can repartitioning improve join performance?
+
+Data Skew
+What is data skew in joins?
+How do you identify data skew?
+What problems does data skew cause?
+How do you handle data skew?
+What is salting in Spark?
+How does AQE handle skewed joins?
+Null Handling
+How are NULL values treated in joins?
+Can NULL values match during an equality join?
+How do you perform a null-safe join?
+What is the <=> operator in Spark SQL?
+
+Join Employee and Department tables using an Inner Join.
+Perform a Left Join between Orders and Customers.
+Perform a Right Join between Sales and Products.
+Perform a Full Outer Join between Employee and Payroll.
+Find employees without a department using an Anti Join.
+Find customers who have placed orders using a Semi Join.
+Join two DataFrames using multiple columns.
+Join two DataFrames having different column names.
+Remove duplicate columns after a join.
+Perform a Self Join to find employee-manager relationships.
+Use Broadcast Join to join a small lookup table.
+Join three DataFrames together.
+Join DataFrames containing duplicate keys.
+Handle NULL values after a join.
+Explain the execution plan of a join using explain().
+Compare the execution plans of Broadcast Join and Sort Merge Join.
+Optimize a slow join query.
+Join large datasets while minimizing shuffle.
+Explain a real-time project where you optimized a join.
+How would you troubleshoot a join that takes too long to execute?
+What happens if one side of the join has duplicate keys?
+How do you choose the appropriate join type for a business requirement?
+Explain the complete lifecycle of a Spark join from logical plan to physical execution.

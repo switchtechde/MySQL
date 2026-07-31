@@ -1,0 +1,92 @@
+groupBy()
+What is the purpose of groupBy() in PySpark?
+How does groupBy() work internally?
+What is the difference between groupBy() and partitionBy()?
+Can you group data by multiple columns?
+What happens if you use groupBy() without an aggregate function?
+Which aggregate functions are commonly used with groupBy()?
+Does groupBy() cause a shuffle? Why?
+How does Spark optimize groupBy() operations?
+What is partial aggregation in Spark?
+What is the difference between groupBy() and rollup()?
+What is the difference between groupBy() and cube()?
+What is the difference between groupBy() and Window Functions?
+What happens to NULL values in groupBy()?
+Can you group by calculated or derived columns?
+How do you rename aggregated columns after groupBy()?
+
+Having
+What is the purpose of the HAVING clause?
+What is the difference between WHERE and HAVING?
+How do you implement HAVING in PySpark DataFrame API?
+Can you use HAVING without GROUP BY?
+Why can't aggregate functions be used in WHERE?
+How do you filter groups after aggregation in PySpark?
+What happens internally when using HAVING?
+Is HAVING more expensive than WHERE? Why?
+Give a real-time example where HAVING is required.
+How do you write a HAVING COUNT(*) > 5 condition in PySpark?
+
+orderBy()
+What is the purpose of orderBy() in PySpark?
+What is the difference between orderBy() and sort()?
+Does orderBy() perform a global sort?
+Does orderBy() cause a shuffle?
+What is the difference between ascending and descending sort?
+How do you sort by multiple columns?
+How do NULL values behave in orderBy()?
+How do you sort NULL values first or last?
+What is the difference between orderBy() and sortWithinPartitions()?
+When should you use sortWithinPartitions()?
+
+groupBy()
+Find the total salary department-wise.
+Find the average salary by department.
+Find the maximum salary in each department.
+Find the minimum salary in each department.
+Count employees in each department.
+Find the total sales by product.
+Find the average marks by class.
+Find the highest-paid employee in each department.
+Group data by department and city.
+Group data by year and month of joining.
+Find duplicate employee IDs using groupBy().
+Count distinct employees in each department.
+Calculate total revenue by region.
+Find departments with the highest average salary.
+Group by a derived column (e.g., salary band).
+
+Having
+Find departments having more than 10 employees.
+Find departments where average salary is greater than 60,000.
+Find products whose total sales exceed ₹1,00,000.
+Find cities having more than 50 customers.
+Find departments where maximum salary exceeds ₹1,00,000.
+Find departments with minimum salary below ₹20,000.
+Find classes having an average mark above 80.
+Find duplicate records using HAVING COUNT(*) > 1.
+Find customers who placed more than 5 orders.
+Find products sold more than 100 times.
+
+orderBy()
+Sort employees by salary in ascending order.
+Sort employees by salary in descending order.
+Sort employees by department and salary.
+Sort employees by joining date.
+Sort employees by multiple columns with different sort orders.
+Sort data with NULL values appearing first.
+Sort data with NULL values appearing last.
+Find the top 10 highest-paid employees.
+Find the bottom 5 salaries.
+Sort grouped results by total salary.
+Scenario-Based Questions
+When would you use groupBy() instead of a Window Function?
+How do you optimize a slow groupBy() query?
+Why is groupBy() expensive on large datasets?
+How do you reduce shuffle during aggregation?
+Why is filtering before groupBy() usually better than after?
+What happens if your grouping column is highly skewed?
+How would you optimize sorting on billions of records?
+Why is orderBy() expensive?
+How would you retrieve only the Top N records efficiently?
+Explain a real-time project where you used groupBy(), HAVING, and orderBy() together.

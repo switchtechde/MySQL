@@ -1,0 +1,88 @@
+What is the filter() function in PySpark?
+What is the difference between filter() and where()?
+Is where() an alias for filter()?
+How does Spark optimize filter operations?
+What is predicate pushdown?
+Which file formats support predicate pushdown?
+What is filter pushdown, and why is it important?
+What is the difference between filtering before and after a join?
+Can multiple filters be combined into one filter? Why?
+What is lazy evaluation, and how does it affect filter operations?
+What happens internally when a filter transformation is executed?
+Is filter() a narrow or wide transformation? Why?
+Does filter() cause a shuffle? Explain.
+Can you filter using SQL expressions? How?
+What are the different ways to filter a DataFrame?
+What is the difference between column expressions and SQL string expressions in filter()?
+Can you use Python variables inside a filter condition?
+How do null values behave in filter conditions?
+What is three-valued logic (TRUE, FALSE, NULL) in Spark SQL?
+How do you filter rows containing NULL values?
+How do you filter rows that are NOT NULL?
+What is the difference between isNull() and == None?
+What is the difference between isin() and multiple OR conditions?
+What are comparison operators in PySpark?
+What are logical operators in PySpark?
+Why should &, |, and ~ be used instead of and, or, and not?
+What is operator precedence in filter conditions?
+Why are parentheses important in filter expressions?
+What is the difference between like() and rlike()?
+What is the difference between contains(), startswith(), and endswith()?
+
+Filter employees whose salary is greater than 50,000.
+Filter employees whose salary is less than 30,000.
+Filter employees with salary between 40,000 and 80,000.
+Filter employees whose department is "IT".
+Filter employees belonging to either IT or HR departments.
+Filter employees whose age is greater than 30 and salary is greater than 60,000.
+Filter employees whose department is IT or whose salary is greater than 80,000.
+Filter employees who are not in the Sales department.
+Filter employees whose name starts with "A".
+Filter employees whose name ends with "n".
+Filter employees whose name contains "ar".
+Filter employees whose email matches a specific domain using like().
+Filter employees using a regular expression with rlike().
+Filter employees whose city is in a given list using isin().
+Filter employees whose city is not in a given list.
+Filter records where the manager column is NULL.
+Filter records where the manager column is NOT NULL.
+Filter records with duplicate employee IDs.
+Filter employees hired after a specific date.
+Filter employees whose joining year is 2024.
+Filter employees whose experience is greater than 5 years.
+Filter employees whose bonus column is greater than 10% of salary.
+Filter rows using multiple conditions with &.
+Filter rows using multiple conditions with |.
+Filter rows using the NOT (~) operator.
+Filter records using SQL expression syntax.
+Filter rows based on values from another DataFrame (semi-join scenario).
+Filter the top 10 highest-paid employees.
+Filter rows after performing a join.
+Write a filter query that uses between(), isin(), isNull(), and like() together.
+
+What is the difference between == and !=?
+How do you use >, <, >=, and <= in PySpark filters?
+What is the purpose of the between() function?
+What is the difference between between() and using >= and <=?
+
+What is the purpose of the & operator?
+What is the purpose of the | operator?
+What is the purpose of the ~ operator?
+Why can't and and or be used with DataFrame columns?
+
+How does contains() work?
+What is the difference between contains() and like()?
+What is the difference between like() and rlike()?
+How do startswith() and endswith() work?
+
+What is the difference between isNull() and isNotNull()?
+How do NULL values affect filter results?
+How do you replace NULL values before filtering?
+
+
+What is isin()?
+How do you filter records not present in a list?
+Can isin() improve readability compared to multiple OR conditions?
+
+How do you filter data for the current date?
+How do you filter records between two dates?
