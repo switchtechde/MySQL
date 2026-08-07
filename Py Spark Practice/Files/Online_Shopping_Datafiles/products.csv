@@ -1,0 +1,601 @@
+product_id,product_name,category,brand,price,discount_pct,rating,num_ratings,stock_qty
+9001,WOW Lipstick Edition,Beauty,WOW,1633.61,40,4.0,11188,158
+9002,Nike Watch Pro,Fashion,Nike,964.2,0,1.0,22352,335
+9003,Bajaj Vacuum Cleaner Edition,Home & Kitchen,Bajaj,13941.53,15,4.3,6858,40
+9004,Cello Water Bottle Max,Home & Kitchen,Cello,6049.75,0,1.6,1175,352
+9005,Philips Cookware Set Classic,Home & Kitchen,Philips,7273.16,0,,21441,366
+9006,Mamaearth Face Wash Plus,Beauty,Mamaearth,2592.16,30,1.4,17366,141
+9007,Roadster Jeans Plus,Fashion,Roadster,4078.42,15,3.9,8276,238
+9008,Penguin Textbook 2026,Books,Penguin,527.03,5,2.6,15066,2
+9009,Tata Tea Powder Plus,Grocery,Tata,263.27,0,1.2,23698,344
+9010,Bajaj Mixer Grinder Classic,Home & Kitchen,Bajaj,9299.03,30,4.1,10468,261
+9011,boAt Camera Plus,Electronics,boAt,77186.56,20,2.4,2269,425
+9012,Milton Cookware Set Pro,Home & Kitchen,Milton,10384.33,30,1.3,7,140
+9013,boAt Power Bank Max,Electronics,boAt,13447.29,50,4.4,13959,324
+9014,Roadster Kurta Pro,Fashion,Roadster,4771.96,20,3.8,15489,41
+9015,SG Yoga Mat Edition,Sports,SG,3347.44,50,1.3,20600,99
+9016,Nivia Yoga Mat Max,Sports,Nivia,1770.76,0,,11713,257
+9017,OnePlus Smartwatch Max,Electronics,OnePlus,65069.8,20,2.4,4905,86
+9018,HarperCollins Novel Edition,Books,HarperCollins,143.23,40,4.6,8773,335
+9019,Nivia Yoga Mat Lite,Sports,Nivia,2217.41,5,1.4,3471,75
+9020,WOW Face Wash Pro,Beauty,WOW,1001.88,30,2.5,10848,171
+9021,Bajaj Vacuum Cleaner Max,Home & Kitchen,Bajaj,5831.46,50,2.9,12447,315
+9022,Fortune Spice Combo Max,Grocery,Fortune,1356.46,40,3.3,822,66
+9023,Tata Cooking Oil 1L 2026,Grocery,Tata,895.02,40,1.5,23182,187
+9024,LOreal Lipstick Edition,Beauty,LOreal,1622.99,40,1.8,22375,365
+9025,Levis Saree Lite,Fashion,Levis,1672.78,40,1.6,1096,45
+9026,Sony Headphones 2026,Electronics,Sony,27773.99,20,1.1,24354,115
+9027,Samsung Bluetooth Speaker Edition,Electronics,Samsung,60157.57,0,3.4,10668,265
+9028,Yonex Dumbbells Edition,Sports,Yonex,9420.15,0,1.1,21997,298
+9029,Philips Water Bottle Classic,Home & Kitchen,Philips,9742.31,50,2.0,13759,277
+9030,Mamaearth Hair Oil 2026,Beauty,Mamaearth,2003.52,5,4.0,8365,228
+9031,Aashirvaad Cooking Oil 1L Max,Grocery,Aashirvaad,879.02,10,3.6,22350,412
+9032,Cello Vacuum Cleaner Pro,Home & Kitchen,Cello,5031.18,5,4.3,506,130
+9033,Allen Solly Kurta 2026,Fashion,Allen Solly,2848.34,0,2.9,24713,213
+9034,Aashirvaad Spice Combo Max,Grocery,Aashirvaad,615.89,0,3.3,1132,39
+9035,Nivea Sunscreen Lite,Beauty,Nivea,2726.6,50,3.1,5368,490
+9036,Allen Solly Jeans 2026,Fashion,Allen Solly,3517.04,40,3.7,1306,431
+9037,Sony Smartphone Pro,Electronics,Sony,9092.12,0,4.7,2515,157
+9038,Nivia Dumbbells Classic,Sports,Nivia,4412.28,30,3.4,10876,258
+9039,Decathlon Dumbbells Plus,Sports,Decathlon,3074.85,0,2.7,7273,343
+9040,Nivia Cricket Bat 2026,Sports,Nivia,1852.57,50,1.5,16601,48
+9041,boAt Laptop Plus,Electronics,boAt,72527.4,40,3.8,7834,43
+9042,Roadster Jacket Lite,Fashion,Roadster,2877.99,0,1.2,10612,432
+9043,Sony Bluetooth Speaker Plus,Electronics,Sony,50432.33,10,2.1,4904,255
+9044,Apple Headphones Classic,Electronics,Apple,56612.85,0,2.1,8633,237
+9045,Yonex Cricket Bat Pro,Sports,Yonex,7154.06,10,3.4,21727,490
+9046,Allen Solly Saree Lite,Fashion,Allen Solly,848.7,20,4.6,20243,71
+9047,Decathlon Yoga Mat Max,Sports,Decathlon,6312.64,40,2.7,3443,436
+9048,Yonex Dumbbells Pro,Sports,Yonex,4828.38,30,2.4,4834,499
+9049,Fortune Atta 10kg 2026,Grocery,Fortune,592.97,20,1.4,7370,438
+9050,Nike Jacket Max,Fashion,Nike,624.78,30,5.0,24851,317
+9051,Bloomsbury Biography Plus,Books,Bloomsbury,956.32,0,,14963,29
+9052,Decathlon Dumbbells Classic,Sports,Decathlon,422.32,10,1.9,20749,443
+9053,Tata Tea Powder 2026,Grocery,Tata,626.84,0,2.8,14636,342
+9054,Milton Water Bottle Plus,Home & Kitchen,Milton,5145.39,0,4.8,413,410
+9055,Prestige Vacuum Cleaner Pro,Home & Kitchen,Prestige,15378.18,40,2.3,5297,372
+9056,HarperCollins Biography Lite,Books,HarperCollins,389.49,15,3.0,520,402
+9057,Bajaj Curtains Max,Home & Kitchen,Bajaj,5197.64,0,2.6,18914,288
+9058,Bajaj Air Fryer 2026,Home & Kitchen,Bajaj,11903.73,15,4.5,14634,169
+9059,Yonex Football Lite,Sports,Yonex,770.17,30,,7685,243
+9060,boAt Tablet Plus,Electronics,boAt,4485.02,10,,1723,179
+9061,Cello Air Fryer Plus,Home & Kitchen,Cello,4867.15,0,,19748,169
+9062,WOW Sunscreen Lite,Beauty,WOW,1169.32,0,1.9,24031,54
+9063,Aashirvaad Cooking Oil 1L Pro,Grocery,Aashirvaad,948.47,0,3.2,2043,274
+9064,Apple Power Bank 2026,Electronics,Apple,62740.58,10,2.0,6626,99
+9065,Nike T-Shirt Lite,Fashion,Nike,3090.21,0,4.4,7878,401
+9066,Fabindia Jacket Pro,Fashion,Fabindia,1225.95,0,2.7,23270,471
+9067,Rupa Textbook Classic,Books,Rupa,531.62,20,1.8,7519,23
+9068,Fortune Rice 5kg Edition,Grocery,Fortune,1348.89,30,2.6,10538,0
+9069,LOreal Perfume Plus,Beauty,LOreal,1798.3,0,2.3,14587,136
+9070,Rupa Textbook 2026,Books,Rupa,220.16,0,1.1,3862,193
+9071,Nivia Dumbbells Plus,Sports,Nivia,5454.95,20,1.9,5103,444
+9072,Rupa Comic 2026,Books,Rupa,464.96,40,4.7,11854,23
+9073,Milton Vacuum Cleaner 2026,Home & Kitchen,Milton,11134.32,0,2.5,23345,483
+9074,Rupa Comic 2026,Books,Rupa,527.63,20,4.6,9621,441
+9075,Nivea Perfume Pro,Beauty,Nivea,1098.72,30,4.6,14037,217
+9076,LOreal Hair Oil Plus,Beauty,LOreal,2374.59,5,3.6,19706,359
+9077,Puma Jacket Classic,Fashion,Puma,526.63,40,3.4,11120,235
+9078,Cello Bedsheet 2026,Home & Kitchen,Cello,8321.0,0,4.8,24398,201
+9079,Milton Water Bottle Edition,Home & Kitchen,Milton,11240.84,40,3.9,9702,233
+9080,Aashirvaad Rice 5kg 2026,Grocery,Aashirvaad,693.5,0,2.2,5977,159
+9081,Prestige Cookware Set Max,Home & Kitchen,Prestige,7898.96,10,1.7,7288,84
+9082,WOW Lipstick Lite,Beauty,WOW,2140.75,0,1.1,9735,185
+9083,Fortune Rice 5kg Edition,Grocery,Fortune,745.13,0,1.4,8698,262
+9084,HarperCollins Biography Classic,Books,HarperCollins,910.42,0,1.4,13075,123
+9085,Philips Mixer Grinder Classic,Home & Kitchen,Philips,13791.68,40,3.9,2129,371
+9086,Tata Spice Combo Edition,Grocery,Tata,823.62,15,4.6,21203,55
+9087,Roadster Jeans Plus,Fashion,Roadster,3613.75,5,3.8,16597,500
+9088,Nivia Football Classic,Sports,Nivia,8393.7,30,2.3,22714,415
+9089,Apple Laptop 2026,Electronics,Apple,31575.76,15,1.2,9833,399
+9090,OnePlus Smartwatch 2026,Electronics,OnePlus,2811.87,0,2.1,8647,361
+9091,Puma Sneakers 2026,Fashion,Puma,916.83,20,4.9,971,111
+9092,Fortune Atta 10kg Max,Grocery,Fortune,838.1,5,2.6,6390,358
+9093,Penguin Novel Max,Books,Penguin,990.49,50,,18563,121
+9094,Levis T-Shirt 2026,Fashion,Levis,2263.43,15,2.3,1899,23
+9095,Nike T-Shirt Classic,Fashion,Nike,342.82,5,4.6,8236,68
+9096,SG Football Plus,Sports,SG,8260.41,0,1.9,7201,477
+9097,Fortune Atta 10kg 2026,Grocery,Fortune,268.94,10,1.4,2263,220
+9098,Levis Jacket Plus,Fashion,Levis,2234.2,50,4.2,23036,340
+9099,OnePlus Bluetooth Speaker 2026,Electronics,OnePlus,36792.76,5,1.0,3398,264
+9100,Decathlon Yoga Mat Pro,Sports,Decathlon,6667.62,5,2.1,12592,240
+9101,Samsung Smartphone Classic,Electronics,Samsung,49932.33,5,3.9,24055,306
+9102,Penguin Comic Classic,Books,Penguin,380.78,0,3.2,18465,404
+9103,Nike Sunglasses Edition,Fashion,Nike,1136.32,20,3.2,20073,174
+9104,Milton Vacuum Cleaner Classic,Home & Kitchen,Milton,14966.22,15,1.4,15777,311
+9105,Levis Sunglasses Edition,Fashion,Levis,4553.84,0,3.8,19315,449
+9106,LOreal Lipstick 2026,Beauty,LOreal,2851.68,10,4.2,2540,303
+9107,Roadster Watch Max,Fashion,Roadster,326.8,30,1.6,20410,302
+9108,Allen Solly Watch 2026,Fashion,Allen Solly,443.92,0,1.6,13102,138
+9109,Rupa Comic Edition,Books,Rupa,790.53,40,4.2,15062,434
+9110,WOW Sunscreen Lite,Beauty,WOW,1201.87,0,2.5,10767,192
+9111,Roadster Jeans 2026,Fashion,Roadster,3512.06,0,4.7,14556,98
+9112,Philips Vacuum Cleaner 2026,Home & Kitchen,Philips,542.68,10,3.5,9103,294
+9113,Cello Mixer Grinder Plus,Home & Kitchen,Cello,2835.85,0,3.7,6517,115
+9114,Cello Cookware Set Lite,Home & Kitchen,Cello,4560.65,20,1.4,17003,471
+9115,India Gate Tea Powder Classic,Grocery,India Gate,86.51,5,1.0,13175,311
+9116,Prestige Air Fryer Plus,Home & Kitchen,Prestige,7043.72,30,1.7,20779,300
+9117,Fabindia Kurta Edition,Fashion,Fabindia,4027.48,0,3.2,23974,67
+9118,Nivia Dumbbells Classic,Sports,Nivia,7841.88,0,4.6,23018,332
+9119,HarperCollins Textbook Pro,Books,HarperCollins,389.1,5,2.4,8122,55
+9120,Lakme Sunscreen Classic,Beauty,Lakme,679.28,20,2.4,23329,307
+9121,Tata Cooking Oil 1L Classic,Grocery,Tata,549.4,0,4.8,22974,153
+9122,OnePlus Camera Plus,Electronics,OnePlus,41445.13,50,3.5,2798,324
+9123,Bajaj Air Fryer Plus,Home & Kitchen,Bajaj,14767.09,40,2.9,6071,89
+9124,Decathlon Cricket Bat 2026,Sports,Decathlon,1314.25,30,1.4,11302,70
+9125,WOW Face Wash 2026,Beauty,WOW,927.43,5,,12694,154
+9126,boAt Camera Pro,Electronics,boAt,84976.87,0,2.8,11028,437
+9127,Rupa Novel Edition,Books,Rupa,971.3,0,,20384,438
+9128,Yonex Running Shoes Lite,Sports,Yonex,316.99,5,1.1,17505,187
+9129,Milton Air Fryer Lite,Home & Kitchen,Milton,6982.17,15,2.1,10508,175
+9130,Allen Solly Sunglasses Pro,Fashion,Allen Solly,4412.09,5,,16767,255
+9131,Nike Saree Classic,Fashion,Nike,3731.24,10,2.7,11350,188
+9132,Allen Solly Sunglasses Plus,Fashion,Allen Solly,4245.95,15,1.9,13523,181
+9133,Lakme Hair Oil Pro,Beauty,Lakme,2991.41,20,2.9,20233,293
+9134,Levis Jeans Lite,Fashion,Levis,4251.27,5,2.4,22407,93
+9135,Mamaearth Sunscreen Pro,Beauty,Mamaearth,2109.2,50,4.1,18059,345
+9136,Penguin Self-Help Book Max,Books,Penguin,308.35,30,4.4,17400,478
+9137,Levis Kurta Pro,Fashion,Levis,443.13,20,3.1,770,415
+9138,Lakme Perfume Lite,Beauty,Lakme,228.8,0,2.5,4233,243
+9139,Mamaearth Perfume 2026,Beauty,Mamaearth,1031.16,15,1.7,13050,200
+9140,SG Cricket Bat Max,Sports,SG,7343.14,10,4.1,4141,448
+9141,Philips Bedsheet Edition,Home & Kitchen,Philips,2400.15,30,2.6,18852,417
+9142,Levis Saree Max,Fashion,Levis,-1917.55,30,3.4,4430,2
+9143,Bloomsbury Self-Help Book Max,Books,Bloomsbury,811.72,10,4.5,8522,195
+9144,Fabindia T-Shirt Edition,Fashion,Fabindia,3722.81,0,2.3,19575,284
+9145,Bloomsbury Self-Help Book Lite,Books,Bloomsbury,136.15,10,2.0,21958,282
+9146,OnePlus Smartphone Classic,Electronics,OnePlus,4213.46,40,1.4,23486,188
+9147,Fortune Rice 5kg Classic,Grocery,Fortune,1031.07,5,,5457,240
+9148,LOreal Hair Oil Edition,Beauty,LOreal,213.86,0,,20757,75
+9149,Tata Spice Combo Max,Grocery,Tata,1313.22,30,3.7,24995,213
+9150,Mamaearth Hair Oil Pro,Beauty,Mamaearth,2610.94,50,5.0,9554,17
+9151,Penguin Self-Help Book Lite,Books,Penguin,506.15,15,4.7,10429,188
+9152,Puma Sunglasses Pro,Fashion,Puma,4361.3,50,2.9,5146,472
+9153,Apple Camera Lite,Electronics,Apple,48076.58,50,4.6,2146,37
+9154,boAt Smartphone Lite,Electronics,boAt,35139.28,20,3.0,625,188
+9155,LOreal Face Wash 2026,Beauty,LOreal,474.83,0,1.7,22789,319
+9156,Bloomsbury Comic Edition,Books,Bloomsbury,480.14,50,,7771,125
+9157,Mi Smartphone Lite,Electronics,Mi,67703.65,50,1.5,20337,134
+9158,Allen Solly Sneakers Classic,Fashion,Allen Solly,1345.8,15,4.1,24978,281
+9159,Decathlon Running Shoes Classic,Sports,Decathlon,7751.34,40,4.4,21283,101
+9160,Philips Cookware Set Edition,Home & Kitchen,Philips,15719.76,10,4.0,41,92
+9161,Bloomsbury Novel 2026,Books,Bloomsbury,718.37,0,4.8,22007,208
+9162,Roadster Kurta 2026,Fashion,Roadster,2490.52,15,2.7,11382,89
+9163,Cello Vacuum Cleaner Edition,Home & Kitchen,Cello,1336.37,20,3.8,2963,175
+9164,Fabindia T-Shirt Classic,Fashion,Fabindia,4357.87,40,,2501,132
+9165,Noise Tablet Max,Electronics,Noise,18160.93,50,3.5,20888,64
+9166,WOW Perfume Plus,Beauty,WOW,1548.76,0,3.5,23966,137
+9167,Samsung Bluetooth Speaker Max,Electronics,Samsung,11272.34,15,2.6,9479,86
+9168,Decathlon Yoga Mat Pro,Sports,Decathlon,7194.02,10,1.4,6693,444
+9169,Mamaearth Face Wash 2026,Beauty,Mamaearth,1496.7,20,3.4,2666,120
+9170,Nivea Perfume Max,Beauty,Nivea,1747.18,0,1.6,11641,197
+9171,Lakme Sunscreen Classic,Beauty,Lakme,955.13,0,1.7,23723,375
+9172,Rupa Novel Max,Books,Rupa,838.42,10,4.1,5755,274
+9173,HarperCollins Comic Pro,Books,HarperCollins,290.01,20,,1503,181
+9174,Lakme Sunscreen Pro,Beauty,Lakme,1641.66,0,4.6,8918,123
+9175,Samsung Laptop Pro,Electronics,Samsung,88283.92,10,2.9,19852,9
+9176,Prestige Mixer Grinder Plus,Home & Kitchen,Prestige,10450.96,5,3.4,15689,281
+9177,WOW Perfume Pro,Beauty,WOW,505.98,15,2.6,590,80
+9178,SG Cricket Bat Classic,Sports,SG,9569.74,0,3.8,13168,256
+9179,Cello Cookware Set Pro,Home & Kitchen,Cello,14130.54,0,,10227,489
+9180,Nivia Yoga Mat Max,Sports,Nivia,5841.59,30,1.9,24463,304
+9181,Nivia Running Shoes 2026,Sports,Nivia,6544.81,0,2.0,20585,230
+9182,Prestige Air Fryer 2026,Home & Kitchen,Prestige,1187.24,20,1.6,1027,66
+9183,Nike Sneakers Pro,Fashion,Nike,1234.29,40,4.3,16918,355
+9184,Nivia Yoga Mat Max,Sports,Nivia,8925.87,0,5.0,3675,291
+9185,SG Yoga Mat Max,Sports,SG,1940.53,40,2.5,21823,171
+9186,Nivia Yoga Mat Pro,Sports,Nivia,5261.12,10,2.2,23761,210
+9187,Nivea Face Wash Edition,Beauty,Nivea,1757.71,0,1.2,6414,499
+9188,SG Football Pro,Sports,SG,-9972.91,0,,15503,303
+9189,Bloomsbury Textbook Plus,Books,Bloomsbury,712.3,15,1.3,2098,303
+9190,Decathlon Cricket Bat Pro,Sports,Decathlon,9838.56,10,4.4,24150,160
+9191,Roadster Sneakers Max,Fashion,Roadster,3218.01,15,3.6,11934,208
+9192,Noise Tablet Edition,Electronics,Noise,75872.44,0,4.2,2028,130
+9193,Mi Power Bank Max,Electronics,Mi,38575.64,0,4.1,6305,282
+9194,Allen Solly Sneakers Lite,Fashion,Allen Solly,1029.52,0,1.1,5967,122
+9195,WOW Lipstick 2026,Beauty,WOW,1504.98,0,2.0,2161,178
+9196,Bloomsbury Textbook Edition,Books,Bloomsbury,270.05,0,2.3,6002,96
+9197,LOreal Lipstick Max,Beauty,LOreal,1380.9,10,3.8,14868,353
+9198,Mi Camera Max,Electronics,Mi,53514.99,0,2.3,2775,174
+9199,Sony Bluetooth Speaker 2026,Electronics,Sony,79410.89,0,3.4,5808,438
+9200,India Gate Spice Combo Edition,Grocery,India Gate,385.54,20,1.3,9844,347
+9201,Milton Vacuum Cleaner Pro,Home & Kitchen,Milton,10137.52,30,3.6,10165,300
+9202,India Gate Atta 10kg Plus,Grocery,India Gate,1204.67,30,1.9,16042,14
+9203,Cello Cookware Set Edition,Home & Kitchen,Cello,620.47,15,3.3,8167,7
+9204,Cello Curtains Lite,Home & Kitchen,Cello,14291.03,40,4.2,10284,238
+9205,Philips Air Fryer Plus,Home & Kitchen,Philips,3170.38,0,2.3,23801,370
+9206,Nivea Sunscreen Pro,Beauty,Nivea,1629.93,20,2.8,18007,262
+9207,Fortune Spice Combo Plus,Grocery,Fortune,1301.2,40,2.7,5501,376
+9208,Tata Atta 10kg Edition,Grocery,Tata,809.08,40,4.4,15734,479
+9209,WOW Perfume 2026,Beauty,WOW,1811.87,50,2.9,2302,250
+9210,Levis T-Shirt Plus,Fashion,Levis,3494.23,40,5.0,7641,360
+9211,Apple Laptop Lite,Electronics,Apple,68659.31,30,1.3,14453,231
+9212,Nike Jacket Max,Fashion,Nike,2782.39,5,3.2,23049,498
+9213,Roadster Sunglasses Edition,Fashion,Roadster,2420.51,10,1.7,2745,273
+9214,Lakme Sunscreen Pro,Beauty,Lakme,593.64,5,2.4,12002,11
+9215,Bloomsbury Textbook 2026,Books,Bloomsbury,630.37,30,3.9,1145,79
+9216,HarperCollins Comic Edition,Books,HarperCollins,559.78,50,,10454,180
+9217,Puma Jeans 2026,Fashion,Puma,1296.96,0,4.7,7115,75
+9218,Rupa Novel Pro,Books,Rupa,340.96,0,2.1,72,26
+9219,Philips Mixer Grinder Edition,Home & Kitchen,Philips,9650.91,40,2.1,23980,182
+9220,Aashirvaad Cooking Oil 1L Pro,Grocery,Aashirvaad,956.04,30,2.2,5654,82
+9221,Nivea Sunscreen Plus,Beauty,Nivea,238.34,30,3.2,19872,222
+9222,Milton Bedsheet Lite,Home & Kitchen,Milton,11964.9,5,2.5,14087,269
+9223,Cello Bedsheet Lite,Home & Kitchen,Cello,2181.45,30,4.6,20235,196
+9224,Aashirvaad Atta 10kg 2026,Grocery,Aashirvaad,160.3,0,3.8,16322,500
+9225,Penguin Comic Pro,Books,Penguin,450.11,30,,11844,183
+9226,Samsung Camera Max,Electronics,Samsung,-86678.08,40,1.8,18918,401
+9227,SG Running Shoes Plus,Sports,SG,8741.38,40,3.4,14305,167
+9228,Puma Sunglasses Edition,Fashion,Puma,407.3,50,,8528,480
+9229,Levis T-Shirt Edition,Fashion,Levis,2632.52,10,2.5,5141,31
+9230,boAt Laptop Plus,Electronics,boAt,54818.7,0,2.7,19349,245
+9231,Mi Tablet Max,Electronics,Mi,11670.56,0,3.3,1432,137
+9232,Nivia Running Shoes Pro,Sports,Nivia,7730.09,50,3.8,15618,329
+9233,Decathlon Yoga Mat Edition,Sports,Decathlon,7250.06,10,5.0,10646,342
+9234,Lakme Perfume Plus,Beauty,Lakme,1674.94,0,2.6,24734,198
+9235,Apple Power Bank 2026,Electronics,Apple,55726.49,0,,6938,182
+9236,Cello Curtains Plus,Home & Kitchen,Cello,3805.14,10,4.0,6887,184
+9237,Allen Solly Watch 2026,Fashion,Allen Solly,2442.21,10,2.7,17388,315
+9238,Yonex Dumbbells Pro,Sports,Yonex,8146.51,30,2.8,17036,103
+9239,OnePlus Power Bank Max,Electronics,OnePlus,69624.78,10,2.6,270,114
+9240,SG Dumbbells Classic,Sports,SG,6161.53,0,2.2,15629,367
+9241,Fortune Cooking Oil 1L Pro,Grocery,Fortune,305.81,30,1.5,15462,411
+9242,Samsung Laptop Classic,Electronics,Samsung,44540.42,30,2.5,14839,413
+9243,Apple Camera Pro,Electronics,Apple,69196.18,30,2.9,14495,133
+9244,Apple Camera Edition,Electronics,Apple,77941.39,30,3.8,19639,405
+9245,Bajaj Mixer Grinder 2026,Home & Kitchen,Bajaj,10273.82,0,3.9,11979,196
+9246,Bloomsbury Textbook Classic,Books,Bloomsbury,644.96,5,1.1,12115,373
+9247,Samsung Smartwatch Plus,Electronics,Samsung,62995.52,30,3.2,12988,477
+9248,Sony Smartwatch Max,Electronics,Sony,20109.92,0,2.5,3256,28
+9249,Samsung Camera Lite,Electronics,Samsung,82138.03,5,4.6,15290,163
+9250,Prestige Water Bottle Lite,Home & Kitchen,Prestige,10627.55,0,3.3,19134,3
+9251,Samsung Power Bank Plus,Electronics,Samsung,41166.65,20,4.9,4040,237
+9252,Tata Cooking Oil 1L Pro,Grocery,Tata,1230.52,10,2.2,10598,319
+9253,Sony Smartwatch Lite,Electronics,Sony,75119.8,0,2.2,3862,107
+9254,Nivea Perfume Edition,Beauty,Nivea,1031.99,0,4.9,7221,90
+9255,Decathlon Yoga Mat Pro,Sports,Decathlon,-6050.57,30,4.1,24397,308
+9256,boAt Camera 2026,Electronics,boAt,30997.77,5,4.7,14048,234
+9257,Lakme Lipstick 2026,Beauty,Lakme,890.46,10,2.9,4234,369
+9258,Mi Headphones Plus,Electronics,Mi,66879.21,40,4.3,13353,403
+9259,Tata Tea Powder Pro,Grocery,Tata,669.41,15,2.5,9327,433
+9260,Decathlon Cricket Bat Edition,Sports,Decathlon,3439.94,15,3.6,18242,117
+9261,boAt Smartphone Plus,Electronics,boAt,84463.03,50,,22955,413
+9262,India Gate Spice Combo 2026,Grocery,India Gate,656.47,0,,12631,408
+9263,Noise Smartphone Classic,Electronics,Noise,17057.41,30,2.2,15341,183
+9264,HarperCollins Textbook Plus,Books,HarperCollins,749.45,40,2.4,14359,110
+9265,Philips Air Fryer Edition,Home & Kitchen,Philips,11239.52,10,3.3,21371,31
+9266,Samsung Headphones Lite,Electronics,Samsung,83738.59,10,,9648,343
+9267,Penguin Textbook Classic,Books,Penguin,778.8,50,4.0,4102,37
+9268,OnePlus Power Bank Plus,Electronics,OnePlus,64212.14,15,3.6,15471,416
+9269,Tata Tea Powder 2026,Grocery,Tata,1068.92,0,4.0,20986,407
+9270,Allen Solly T-Shirt Lite,Fashion,Allen Solly,3967.59,30,4.8,10310,35
+9271,Rupa Novel 2026,Books,Rupa,950.98,40,4.1,5789,324
+9272,Yonex Yoga Mat Edition,Sports,Yonex,7968.17,0,3.0,4807,316
+9273,Bloomsbury Biography Max,Books,Bloomsbury,698.64,0,3.8,4577,268
+9274,India Gate Rice 5kg Max,Grocery,India Gate,156.86,30,2.4,15620,13
+9275,SG Yoga Mat Lite,Sports,SG,5265.2,20,1.1,20744,268
+9276,Noise Power Bank Plus,Electronics,Noise,37947.75,0,2.7,11665,368
+9277,Decathlon Dumbbells Pro,Sports,Decathlon,400.46,0,,3294,493
+9278,Penguin Comic Classic,Books,Penguin,643.45,10,4.1,22196,42
+9279,Puma Saree Lite,Fashion,Puma,3700.11,50,2.0,6705,25
+9280,Penguin Self-Help Book Classic,Books,Penguin,814.03,5,4.0,15426,379
+9281,Levis Sunglasses Pro,Fashion,Levis,2204.2,10,3.1,3082,498
+9282,Bloomsbury Novel Pro,Books,Bloomsbury,590.51,15,5.0,2033,34
+9283,Sony Camera Plus,Electronics,Sony,13157.86,40,2.2,23800,170
+9284,OnePlus Camera Max,Electronics,OnePlus,81428.98,0,2.9,14542,326
+9285,Rupa Comic Lite,Books,Rupa,683.56,40,4.4,19142,338
+9286,Fabindia Saree Classic,Fashion,Fabindia,1156.07,15,4.4,8053,44
+9287,Aashirvaad Rice 5kg Classic,Grocery,Aashirvaad,1411.94,0,1.2,7384,195
+9288,WOW Perfume Lite,Beauty,WOW,1750.81,40,1.1,6228,124
+9289,Lakme Sunscreen Edition,Beauty,Lakme,1605.53,50,3.0,8544,298
+9290,Fortune Tea Powder Classic,Grocery,Fortune,109.74,40,2.7,24283,309
+9291,Penguin Novel Edition,Books,Penguin,480.39,20,2.0,2562,109
+9292,Bajaj Water Bottle Classic,Home & Kitchen,Bajaj,15135.6,10,3.9,22460,424
+9293,India Gate Rice 5kg Plus,Grocery,India Gate,803.38,40,3.0,12237,197
+9294,Lakme Perfume Lite,Beauty,Lakme,2398.97,30,1.6,10958,178
+9295,Philips Water Bottle 2026,Home & Kitchen,Philips,4168.47,5,2.0,3866,31
+9296,Cello Vacuum Cleaner Pro,Home & Kitchen,Cello,2912.52,0,4.2,17073,349
+9297,Tata Rice 5kg Edition,Grocery,Tata,763.47,50,1.4,24719,43
+9298,Fortune Atta 10kg Edition,Grocery,Fortune,1338.79,15,2.8,6362,388
+9299,Tata Rice 5kg 2026,Grocery,Tata,840.69,15,4.7,2834,160
+9300,Penguin Novel Edition,Books,Penguin,946.93,0,1.6,2168,155
+9301,Fabindia T-Shirt Plus,Fashion,Fabindia,4320.11,40,4.4,23982,43
+9302,Mamaearth Face Wash Classic,Beauty,Mamaearth,2070.54,10,1.9,243,380
+9303,India Gate Atta 10kg Classic,Grocery,India Gate,859.58,0,4.1,8447,101
+9304,India Gate Rice 5kg Pro,Grocery,India Gate,238.1,10,3.1,3729,93
+9305,Nivia Running Shoes 2026,Sports,Nivia,2462.35,0,5.0,13866,119
+9306,Bajaj Vacuum Cleaner 2026,Home & Kitchen,Bajaj,7635.29,5,4.0,16030,87
+9307,Nike Saree Lite,Fashion,Nike,2822.58,10,2.5,5035,174
+9308,Decathlon Cricket Bat 2026,Sports,Decathlon,4050.56,0,1.6,24928,215
+9309,Prestige Vacuum Cleaner Max,Home & Kitchen,Prestige,4515.51,50,4.8,6753,357
+9310,boAt Bluetooth Speaker Lite,Electronics,boAt,30157.54,5,3.1,10533,275
+9311,Lakme Hair Oil Plus,Beauty,Lakme,1478.29,5,1.1,3556,6
+9312,Tata Spice Combo Lite,Grocery,Tata,59.48,10,3.1,941,50
+9313,Apple Tablet Plus,Electronics,Apple,27833.41,5,1.4,24019,266
+9314,Prestige Cookware Set Pro,Home & Kitchen,Prestige,7115.0,20,2.9,23447,68
+9315,OnePlus Smartwatch 2026,Electronics,OnePlus,47430.96,5,4.1,4741,163
+9316,Mamaearth Hair Oil Classic,Beauty,Mamaearth,845.47,0,,13449,98
+9317,India Gate Tea Powder Edition,Grocery,India Gate,627.01,50,1.0,20672,156
+9318,Decathlon Running Shoes Classic,Sports,Decathlon,8229.64,20,1.2,23295,464
+9319,Rupa Comic Max,Books,Rupa,753.39,10,1.1,20927,348
+9320,Rupa Comic Pro,Books,Rupa,528.87,10,3.5,15749,24
+9321,Penguin Novel Plus,Books,Penguin,100.88,30,4.1,7976,49
+9322,Rupa Biography Max,Books,Rupa,599.84,0,1.0,10987,344
+9323,HarperCollins Self-Help Book Plus,Books,HarperCollins,708.63,0,3.0,807,419
+9324,Penguin Comic Max,Books,Penguin,887.82,15,3.6,19328,42
+9325,Nike Jeans Max,Fashion,Nike,-477.7,0,2.0,12098,342
+9326,Mamaearth Sunscreen Max,Beauty,Mamaearth,869.59,15,5.0,1140,55
+9327,Decathlon Running Shoes Lite,Sports,Decathlon,952.09,5,3.4,16585,5
+9328,boAt Tablet Max,Electronics,boAt,64895.52,0,4.3,18282,25
+9329,Decathlon Cricket Bat Edition,Sports,Decathlon,8181.51,0,3.0,9193,47
+9330,Lakme Perfume Max,Beauty,Lakme,1859.58,5,3.3,5896,269
+9331,Milton Vacuum Cleaner 2026,Home & Kitchen,Milton,7585.25,5,3.4,3170,494
+9332,Nivea Hair Oil Plus,Beauty,Nivea,1336.73,5,4.6,11793,298
+9333,Fabindia Kurta Pro,Fashion,Fabindia,4627.05,0,,3837,155
+9334,Mi Laptop Edition,Electronics,Mi,82120.45,0,4.3,21687,241
+9335,Bloomsbury Biography Edition,Books,Bloomsbury,599.36,30,1.3,23144,112
+9336,Roadster T-Shirt 2026,Fashion,Roadster,550.11,0,2.2,10064,436
+9337,Philips Vacuum Cleaner Pro,Home & Kitchen,Philips,773.14,15,1.4,17347,202
+9338,Milton Cookware Set Max,Home & Kitchen,Milton,7858.09,30,,14618,439
+9339,Roadster Jeans 2026,Fashion,Roadster,2211.26,40,,22647,447
+9340,OnePlus Smartwatch Classic,Electronics,OnePlus,68766.42,20,4.9,11530,327
+9341,Milton Bedsheet 2026,Home & Kitchen,Milton,1193.13,30,2.1,9186,49
+9342,WOW Sunscreen Plus,Beauty,WOW,841.11,0,3.7,15850,293
+9343,LOreal Perfume Classic,Beauty,LOreal,622.57,0,4.5,8938,315
+9344,Penguin Biography Plus,Books,Penguin,159.99,10,4.0,8849,391
+9345,Rupa Textbook Classic,Books,Rupa,965.8,15,1.7,14704,245
+9346,Bajaj Water Bottle 2026,Home & Kitchen,Bajaj,2569.67,30,3.9,2179,136
+9347,LOreal Face Wash Max,Beauty,LOreal,973.08,10,2.7,12061,469
+9348,boAt Tablet Classic,Electronics,boAt,19808.56,10,3.6,6913,99
+9349,Nivia Cricket Bat Lite,Sports,Nivia,2799.26,50,1.2,3047,169
+9350,boAt Headphones Classic,Electronics,boAt,6870.73,10,3.8,12955,234
+9351,Mamaearth Face Wash Edition,Beauty,Mamaearth,480.16,0,2.7,8907,221
+9352,Nivea Hair Oil Edition,Beauty,Nivea,1598.27,15,3.6,16991,397
+9353,Rupa Biography Max,Books,Rupa,587.75,0,4.3,1760,224
+9354,SG Cricket Bat Classic,Sports,SG,4670.22,5,4.7,15781,13
+9355,Apple Tablet Max,Electronics,Apple,36908.43,5,2.9,1257,345
+9356,WOW Lipstick Edition,Beauty,WOW,571.25,50,1.7,17585,87
+9357,Philips Bedsheet 2026,Home & Kitchen,Philips,7888.12,50,,13680,372
+9358,Aashirvaad Rice 5kg 2026,Grocery,Aashirvaad,541.29,15,2.9,20281,224
+9359,Allen Solly Saree 2026,Fashion,Allen Solly,4407.21,15,1.1,14489,418
+9360,Bloomsbury Novel Max,Books,Bloomsbury,538.09,5,3.5,12183,96
+9361,WOW Lipstick 2026,Beauty,WOW,351.03,40,1.9,22629,252
+9362,Prestige Mixer Grinder Plus,Home & Kitchen,Prestige,4780.23,0,2.2,22184,164
+9363,Yonex Football Pro,Sports,Yonex,8025.78,30,2.6,6734,60
+9364,Mamaearth Perfume Max,Beauty,Mamaearth,506.17,0,1.5,462,81
+9365,SG Football Classic,Sports,SG,9806.5,5,1.8,17787,144
+9366,India Gate Rice 5kg Classic,Grocery,India Gate,1460.14,0,2.6,8390,114
+9367,Prestige Mixer Grinder Classic,Home & Kitchen,Prestige,6964.09,40,3.6,4403,462
+9368,Bloomsbury Self-Help Book Plus,Books,Bloomsbury,891.74,20,4.0,15125,314
+9369,Fabindia Kurta Lite,Fashion,Fabindia,1058.33,0,1.3,1714,207
+9370,Levis Jeans Max,Fashion,Levis,1215.74,40,1.2,13503,279
+9371,SG Running Shoes 2026,Sports,SG,6013.39,0,4.1,7938,415
+9372,Nike Saree Lite,Fashion,Nike,4937.92,50,,10986,303
+9373,OnePlus Power Bank Plus,Electronics,OnePlus,3105.19,0,,15989,98
+9374,India Gate Tea Powder Lite,Grocery,India Gate,836.59,0,2.9,23745,194
+9375,Cello Water Bottle Edition,Home & Kitchen,Cello,9452.59,30,2.9,20462,258
+9376,Roadster T-Shirt Plus,Fashion,Roadster,3919.46,50,2.0,17315,311
+9377,Apple Tablet 2026,Electronics,Apple,53413.6,15,2.8,6906,80
+9378,Cello Bedsheet Lite,Home & Kitchen,Cello,6098.78,40,1.3,17302,5
+9379,SG Yoga Mat Lite,Sports,SG,1081.0,5,3.7,3166,480
+9380,Nivia Cricket Bat Max,Sports,Nivia,2402.55,20,3.5,19657,404
+9381,Cello Air Fryer Max,Home & Kitchen,Cello,5935.07,0,,17822,334
+9382,Penguin Comic Edition,Books,Penguin,268.28,5,3.9,5809,43
+9383,Rupa Self-Help Book Plus,Books,Rupa,299.88,50,3.5,4758,481
+9384,Mamaearth Hair Oil Pro,Beauty,Mamaearth,1121.2,10,3.9,13152,444
+9385,Milton Cookware Set Classic,Home & Kitchen,Milton,-10305.26,30,4.4,15751,305
+9386,Apple Headphones Max,Electronics,Apple,10712.18,0,3.0,19416,322
+9387,Bajaj Bedsheet Lite,Home & Kitchen,Bajaj,9895.64,0,1.9,7391,2
+9388,WOW Face Wash Max,Beauty,WOW,2900.97,0,3.2,22144,169
+9389,Allen Solly Jeans Plus,Fashion,Allen Solly,369.65,5,3.1,5930,53
+9390,Decathlon Dumbbells Lite,Sports,Decathlon,5715.25,5,2.5,3278,137
+9391,Cello Air Fryer Pro,Home & Kitchen,Cello,13307.41,0,1.9,18498,276
+9392,LOreal Perfume Pro,Beauty,LOreal,2437.44,30,1.9,3722,301
+9393,Decathlon Football 2026,Sports,Decathlon,1400.69,30,3.7,9302,217
+9394,Yonex Cricket Bat Plus,Sports,Yonex,5411.78,0,3.5,15192,482
+9395,Lakme Face Wash Lite,Beauty,Lakme,1443.43,15,3.5,10007,241
+9396,WOW Lipstick Plus,Beauty,WOW,533.83,5,1.9,657,234
+9397,Decathlon Cricket Bat Max,Sports,Decathlon,4085.01,0,2.5,6468,200
+9398,OnePlus Smartphone Classic,Electronics,OnePlus,72256.43,0,2.5,24554,108
+9399,Roadster Kurta Pro,Fashion,Roadster,4694.27,10,1.1,6048,217
+9400,Rupa Biography Pro,Books,Rupa,388.34,5,3.8,18507,340
+9401,Penguin Comic 2026,Books,Penguin,330.09,50,4.5,18946,373
+9402,Samsung Headphones Lite,Electronics,Samsung,69606.18,20,,7819,226
+9403,OnePlus Camera Lite,Electronics,OnePlus,43477.69,30,4.5,7377,91
+9404,Philips Air Fryer Classic,Home & Kitchen,Philips,15723.16,0,2.1,24883,267
+9405,Aashirvaad Atta 10kg 2026,Grocery,Aashirvaad,651.47,0,2.7,20395,190
+9406,HarperCollins Biography Pro,Books,HarperCollins,404.09,5,4.0,18391,50
+9407,Decathlon Cricket Bat Max,Sports,Decathlon,7998.18,0,2.9,10812,195
+9408,HarperCollins Self-Help Book Lite,Books,HarperCollins,275.9,0,3.4,20603,90
+9409,Allen Solly T-Shirt Lite,Fashion,Allen Solly,2278.71,5,1.3,13453,257
+9410,Nivia Dumbbells Plus,Sports,Nivia,5851.18,0,2.9,6913,449
+9411,Samsung Bluetooth Speaker Lite,Electronics,Samsung,63665.7,0,,19852,282
+9412,Sony Headphones Classic,Electronics,Sony,7843.39,20,2.4,10141,74
+9413,Milton Cookware Set Classic,Home & Kitchen,Milton,8573.83,40,3.8,18827,437
+9414,Bloomsbury Comic Edition,Books,Bloomsbury,370.02,0,,20297,272
+9415,Nivia Running Shoes Edition,Sports,Nivia,4129.15,15,4.1,18823,270
+9416,Prestige Cookware Set Max,Home & Kitchen,Prestige,3794.93,40,2.2,23153,443
+9417,HarperCollins Biography Plus,Books,HarperCollins,980.18,15,3.8,7726,482
+9418,Noise Camera Pro,Electronics,Noise,53131.24,10,1.0,1886,58
+9419,WOW Face Wash Edition,Beauty,WOW,2548.25,40,4.3,5303,49
+9420,Aashirvaad Cooking Oil 1L Max,Grocery,Aashirvaad,558.38,5,1.2,17617,282
+9421,Yonex Running Shoes Lite,Sports,Yonex,8667.96,30,,18418,204
+9422,Allen Solly Sneakers Plus,Fashion,Allen Solly,2973.29,5,1.1,14624,13
+9423,Lakme Perfume Edition,Beauty,Lakme,-1207.38,20,2.1,13469,113
+9424,India Gate Tea Powder Edition,Grocery,India Gate,294.31,40,4.9,14534,223
+9425,Rupa Comic Edition,Books,Rupa,795.48,30,3.6,17834,212
+9426,Decathlon Running Shoes Max,Sports,Decathlon,4271.54,0,4.6,17608,73
+9427,Prestige Bedsheet Plus,Home & Kitchen,Prestige,3648.64,50,2.0,12575,256
+9428,Nike T-Shirt Lite,Fashion,Nike,1260.93,15,4.0,6926,454
+9429,Cello Cookware Set Plus,Home & Kitchen,Cello,12442.5,0,,12612,77
+9430,SG Football Max,Sports,SG,2274.94,0,3.9,21520,96
+9431,WOW Face Wash Pro,Beauty,WOW,1197.12,0,4.2,14182,455
+9432,Puma Jacket 2026,Fashion,Puma,4949.46,50,2.9,2570,486
+9433,Prestige Bedsheet Classic,Home & Kitchen,Prestige,9270.76,10,1.6,6245,51
+9434,Milton Mixer Grinder Classic,Home & Kitchen,Milton,10003.74,0,5.0,9857,449
+9435,Yonex Cricket Bat Lite,Sports,Yonex,3340.96,40,2.8,22410,161
+9436,SG Running Shoes Pro,Sports,SG,8173.86,50,1.8,3160,80
+9437,India Gate Spice Combo Plus,Grocery,India Gate,401.43,50,3.7,7457,390
+9438,Philips Mixer Grinder 2026,Home & Kitchen,Philips,14172.21,10,2.9,4554,52
+9439,Aashirvaad Tea Powder Plus,Grocery,Aashirvaad,1077.16,40,3.5,19826,410
+9440,OnePlus Power Bank Max,Electronics,OnePlus,83898.8,40,,10171,291
+9441,Aashirvaad Cooking Oil 1L Pro,Grocery,Aashirvaad,1382.65,0,2.9,17738,8
+9442,Milton Air Fryer Plus,Home & Kitchen,Milton,2909.19,0,3.8,19178,434
+9443,Roadster Saree Classic,Fashion,Roadster,4338.29,0,2.9,19458,487
+9444,Noise Camera Max,Electronics,Noise,32757.5,10,1.5,24115,174
+9445,India Gate Spice Combo Plus,Grocery,India Gate,838.61,50,1.9,15113,174
+9446,SG Running Shoes Pro,Sports,SG,2831.92,30,2.2,21992,228
+9447,Noise Headphones Max,Electronics,Noise,76296.08,0,2.0,5808,157
+9448,Yonex Dumbbells Edition,Sports,Yonex,6818.4,40,4.8,24325,223
+9449,Sony Smartphone Edition,Electronics,Sony,83056.87,0,,19302,297
+9450,Noise Tablet Edition,Electronics,Noise,40793.27,0,4.6,5296,21
+9451,Apple Camera Max,Electronics,Apple,30747.02,0,5.0,4451,5
+9452,Samsung Smartphone Plus,Electronics,Samsung,5297.11,0,2.0,4365,111
+9453,Bloomsbury Novel Lite,Books,Bloomsbury,357.05,15,2.9,234,94
+9454,Nivea Perfume Max,Beauty,Nivea,1165.06,10,4.3,16134,203
+9455,LOreal Face Wash Edition,Beauty,LOreal,1516.41,15,2.6,5201,69
+9456,Tata Spice Combo Pro,Grocery,Tata,77.86,30,,6285,335
+9457,Prestige Mixer Grinder Edition,Home & Kitchen,Prestige,7356.75,5,2.6,12475,201
+9458,Penguin Novel Lite,Books,Penguin,346.85,0,2.5,11043,270
+9459,Nivea Lipstick Edition,Beauty,Nivea,1442.88,0,,15983,126
+9460,Tata Rice 5kg Classic,Grocery,Tata,182.98,10,1.0,10511,433
+9461,SG Cricket Bat Pro,Sports,SG,8266.59,40,4.7,12142,55
+9462,Tata Atta 10kg Max,Grocery,Tata,714.91,0,2.4,18682,178
+9463,Lakme Hair Oil Lite,Beauty,Lakme,1542.57,0,3.7,15057,55
+9464,Tata Spice Combo 2026,Grocery,Tata,289.77,20,4.8,4184,212
+9465,Cello Air Fryer Edition,Home & Kitchen,Cello,3569.92,0,3.8,2232,289
+9466,WOW Face Wash Max,Beauty,WOW,454.75,0,2.1,19953,485
+9467,Puma Sneakers Edition,Fashion,Puma,423.63,0,,10775,219
+9468,Sony Headphones Edition,Electronics,Sony,43329.25,5,2.1,21397,232
+9469,Yonex Yoga Mat Lite,Sports,Yonex,6589.85,5,4.4,4587,76
+9470,WOW Face Wash 2026,Beauty,WOW,2536.87,0,4.0,1918,166
+9471,Noise Camera Max,Electronics,Noise,49213.58,20,5.0,8531,165
+9472,Rupa Self-Help Book Plus,Books,Rupa,646.49,0,,4152,104
+9473,OnePlus Tablet Lite,Electronics,OnePlus,37919.42,20,2.2,7676,496
+9474,Bloomsbury Textbook Plus,Books,Bloomsbury,172.35,0,3.6,14434,393
+9475,Cello Vacuum Cleaner Classic,Home & Kitchen,Cello,2070.48,5,1.6,4022,220
+9476,Fortune Rice 5kg 2026,Grocery,Fortune,358.66,50,4.2,4530,454
+9477,Cello Mixer Grinder Max,Home & Kitchen,Cello,10559.23,20,,1226,489
+9478,Levis Saree Pro,Fashion,Levis,3297.23,5,4.3,11236,390
+9479,LOreal Perfume Pro,Beauty,LOreal,1368.32,20,4.2,17011,90
+9480,Prestige Mixer Grinder Edition,Home & Kitchen,Prestige,1908.54,50,,6536,323
+9481,SG Yoga Mat Classic,Sports,SG,2467.96,15,3.4,16937,206
+9482,Roadster Watch Classic,Fashion,Roadster,2089.01,20,3.7,20741,50
+9483,OnePlus Power Bank Edition,Electronics,OnePlus,41799.81,20,3.7,6712,312
+9484,Apple Camera Max,Electronics,Apple,18842.88,0,3.3,19896,335
+9485,Nike Watch Edition,Fashion,Nike,4132.45,0,4.6,6539,363
+9486,Roadster Kurta Pro,Fashion,Roadster,4251.36,0,4.7,11976,316
+9487,Nivea Face Wash Max,Beauty,Nivea,902.1,5,2.3,21418,132
+9488,Mamaearth Face Wash Lite,Beauty,Mamaearth,1350.99,0,1.2,11047,317
+9489,Fabindia Kurta 2026,Fashion,Fabindia,1273.3,50,2.0,3218,212
+9490,Mi Camera Classic,Electronics,Mi,47513.0,0,4.6,13534,442
+9491,Apple Power Bank Edition,Electronics,Apple,86850.17,0,,22250,491
+9492,Tata Spice Combo Edition,Grocery,Tata,69.88,0,3.1,23959,360
+9493,Nivea Perfume Pro,Beauty,Nivea,1892.88,5,,16237,43
+9494,Lakme Hair Oil Lite,Beauty,Lakme,1243.08,50,,16776,445
+9495,Samsung Laptop 2026,Electronics,Samsung,48156.03,10,4.3,23159,465
+9496,Allen Solly Sunglasses Pro,Fashion,Allen Solly,2168.77,0,2.2,1860,451
+9497,Allen Solly Watch Edition,Fashion,Allen Solly,4613.52,10,2.4,24174,53
+9498,Fortune Atta 10kg Lite,Grocery,Fortune,1285.6,15,2.7,6257,130
+9499,Nivea Hair Oil Pro,Beauty,Nivea,1294.58,0,4.9,7017,246
+9500,Aashirvaad Tea Powder Max,Grocery,Aashirvaad,987.79,10,4.4,6811,156
+9501,Sony Smartphone Edition,Electronics,Sony,68093.95,5,2.6,9016,290
+9502,WOW Hair Oil Classic,Beauty,WOW,-735.58,5,4.5,22653,191
+9503,Bajaj Air Fryer Plus,Home & Kitchen,Bajaj,3555.01,0,4.4,18476,431
+9504,SG Cricket Bat Edition,Sports,SG,2814.6,0,4.5,16634,130
+9505,Mi Laptop Pro,Electronics,Mi,53937.03,15,4.7,21939,400
+9506,Rupa Self-Help Book Plus,Books,Rupa,270.4,10,4.5,610,272
+9507,Aashirvaad Cooking Oil 1L Max,Grocery,Aashirvaad,1410.28,10,4.5,6924,177
+9508,Decathlon Running Shoes 2026,Sports,Decathlon,9812.94,0,3.3,8786,406
+9509,Milton Curtains 2026,Home & Kitchen,Milton,7610.83,0,,16548,485
+9510,Noise Smartwatch Classic,Electronics,Noise,11197.58,0,3.6,11583,45
+9511,Mamaearth Sunscreen Plus,Beauty,Mamaearth,1617.95,0,3.4,24179,86
+9512,Nivia Cricket Bat Pro,Sports,Nivia,9709.62,10,,24632,214
+9513,Bajaj Air Fryer Lite,Home & Kitchen,Bajaj,4956.71,50,4.2,19243,424
+9514,Bajaj Air Fryer Pro,Home & Kitchen,Bajaj,15340.26,30,4.6,2275,301
+9515,LOreal Face Wash Max,Beauty,LOreal,2331.43,40,1.0,8076,61
+9516,boAt Headphones Classic,Electronics,boAt,42057.47,30,2.3,24345,307
+9517,India Gate Tea Powder Plus,Grocery,India Gate,1349.54,50,3.2,1599,180
+9518,Aashirvaad Tea Powder Edition,Grocery,Aashirvaad,885.52,0,2.5,11290,234
+9519,Nivia Yoga Mat Pro,Sports,Nivia,8645.44,30,2.2,17324,220
+9520,Fabindia T-Shirt Lite,Fashion,Fabindia,2366.46,10,2.9,22060,379
+9521,LOreal Perfume 2026,Beauty,LOreal,2702.37,15,2.7,10070,135
+9522,Milton Air Fryer Lite,Home & Kitchen,Milton,12389.56,0,4.0,12522,334
+9523,Sony Laptop Pro,Electronics,Sony,12051.83,50,1.7,23950,433
+9524,Tata Atta 10kg Lite,Grocery,Tata,930.14,20,3.2,17068,104
+9525,Yonex Football Pro,Sports,Yonex,1236.47,15,3.0,12361,447
+9526,Nivea Hair Oil Edition,Beauty,Nivea,2341.65,50,,22221,418
+9527,Mi Bluetooth Speaker Edition,Electronics,Mi,77092.6,0,1.1,11944,237
+9528,Nike Jacket Lite,Fashion,Nike,4287.15,15,4.2,21665,491
+9529,Tata Cooking Oil 1L Plus,Grocery,Tata,519.51,20,3.0,559,416
+9530,Aashirvaad Cooking Oil 1L Lite,Grocery,Aashirvaad,255.55,40,1.5,18316,440
+9531,Sony Power Bank Edition,Electronics,Sony,45282.01,10,4.8,22498,447
+9532,Fortune Atta 10kg Max,Grocery,Fortune,1055.89,15,,20758,264
+9533,Allen Solly Sunglasses Max,Fashion,Allen Solly,4370.9,20,4.6,5085,222
+9534,Mi Headphones Classic,Electronics,Mi,-47663.19,0,1.8,18460,478
+9535,Lakme Hair Oil Plus,Beauty,Lakme,1669.99,20,4.3,24238,141
+9536,Levis Sneakers Edition,Fashion,Levis,4170.59,40,1.4,6832,66
+9537,Yonex Cricket Bat 2026,Sports,Yonex,7137.12,0,2.7,10508,155
+9538,Penguin Novel Edition,Books,Penguin,550.77,10,1.4,24821,297
+9539,Fortune Tea Powder Plus,Grocery,Fortune,251.31,5,,2620,258
+9540,WOW Hair Oil Classic,Beauty,WOW,2627.7,30,1.6,2601,380
+9541,Penguin Comic Lite,Books,Penguin,941.33,0,2.7,6776,133
+9542,WOW Lipstick Plus,Beauty,WOW,1217.8,30,4.7,5441,47
+9543,Milton Bedsheet Edition,Home & Kitchen,Milton,3239.27,30,1.8,6551,26
+9544,Samsung Smartphone Max,Electronics,Samsung,20793.61,0,1.1,2314,166
+9545,Penguin Biography Plus,Books,Penguin,446.16,15,3.9,2446,188
+9546,Puma Kurta Lite,Fashion,Puma,3522.47,0,1.9,11340,283
+9547,Mamaearth Sunscreen Max,Beauty,Mamaearth,481.86,15,3.6,15790,324
+9548,Samsung Headphones Pro,Electronics,Samsung,18187.95,0,3.6,21929,129
+9549,Samsung Smartwatch Classic,Electronics,Samsung,66079.39,10,4.0,9114,172
+9550,Rupa Novel Classic,Books,Rupa,858.82,20,4.9,14487,198
+9551,Rupa Comic Lite,Books,Rupa,950.07,5,,24679,106
+9552,Levis T-Shirt Pro,Fashion,Levis,4801.69,30,3.1,5569,443
+9553,India Gate Rice 5kg Pro,Grocery,India Gate,699.08,0,1.7,19913,423
+9554,Noise Bluetooth Speaker Pro,Electronics,Noise,11619.1,20,3.7,15884,189
+9555,Samsung Laptop Edition,Electronics,Samsung,38889.63,50,4.1,19987,341
+9556,SG Running Shoes Edition,Sports,SG,3206.13,15,1.7,20362,188
+9557,WOW Face Wash 2026,Beauty,WOW,270.17,15,1.5,13949,298
+9558,SG Running Shoes Edition,Sports,SG,9419.32,0,3.2,3663,273
+9559,Fortune Cooking Oil 1L Max,Grocery,Fortune,124.22,0,3.0,3270,228
+9560,Mamaearth Face Wash Lite,Beauty,Mamaearth,603.34,20,3.1,14513,10
+9561,Tata Atta 10kg Edition,Grocery,Tata,511.67,0,5.0,4461,196
+9562,Fabindia Kurta Plus,Fashion,Fabindia,4642.77,0,4.9,20891,347
+9563,Fabindia Jacket 2026,Fashion,Fabindia,1579.41,0,4.5,355,423
+9564,Prestige Cookware Set Pro,Home & Kitchen,Prestige,13249.9,0,4.4,4201,213
+9565,SG Yoga Mat Plus,Sports,SG,8801.7,15,1.3,20404,228
+9566,Fortune Tea Powder Pro,Grocery,Fortune,1126.44,10,2.6,21517,438
+9567,Rupa Textbook Pro,Books,Rupa,127.85,10,4.2,22128,422
+9568,HarperCollins Comic Plus,Books,HarperCollins,482.81,0,1.4,23827,172
+9569,Nike T-Shirt Plus,Fashion,Nike,1247.77,0,1.6,8597,220
+9570,Apple Tablet Max,Electronics,Apple,44173.48,50,,24034,451
+9571,HarperCollins Textbook Pro,Books,HarperCollins,614.3,0,3.9,11342,408
+9572,HarperCollins Self-Help Book Plus,Books,HarperCollins,307.34,5,1.8,19988,181
+9573,HarperCollins Comic Classic,Books,HarperCollins,526.49,40,4.2,1897,140
+9574,Allen Solly T-Shirt Pro,Fashion,Allen Solly,3427.27,15,,10854,138
+9575,Nike Jeans 2026,Fashion,Nike,3436.72,15,2.0,2945,258
+9576,Lakme Face Wash 2026,Beauty,Lakme,1395.18,10,4.3,1470,261
+9577,Nike Watch 2026,Fashion,Nike,4344.75,0,5.0,10221,255
+9578,WOW Perfume Edition,Beauty,WOW,2262.7,15,3.9,11277,421
+9579,SG Cricket Bat Plus,Sports,SG,5402.93,50,2.5,1263,253
+9580,Mamaearth Sunscreen Pro,Beauty,Mamaearth,702.54,5,4.2,4957,291
+9581,HarperCollins Comic Pro,Books,HarperCollins,660.56,5,4.0,21769,318
+9582,WOW Lipstick Classic,Beauty,WOW,2232.87,0,3.1,13146,147
+9583,Bloomsbury Self-Help Book 2026,Books,Bloomsbury,327.32,10,1.9,12443,205
+9584,Levis T-Shirt Lite,Fashion,Levis,2575.04,30,,10983,317
+9585,Penguin Biography Classic,Books,Penguin,687.77,15,3.9,14078,171
+9586,WOW Lipstick Classic,Beauty,WOW,154.36,0,1.8,22018,38
+9587,Mamaearth Perfume Lite,Beauty,Mamaearth,625.39,0,4.7,9777,337
+9588,Bajaj Cookware Set Plus,Home & Kitchen,Bajaj,11301.42,40,2.0,1899,10
+9589,Philips Cookware Set Edition,Home & Kitchen,Philips,10297.03,50,1.8,15937,342
+9590,Decathlon Running Shoes Classic,Sports,Decathlon,3323.74,0,2.9,15185,180
+9591,Rupa Novel Pro,Books,Rupa,929.11,20,4.1,11829,317
+9592,India Gate Atta 10kg Pro,Grocery,India Gate,948.56,0,4.4,17119,35
+9593,Lakme Face Wash 2026,Beauty,Lakme,2242.35,30,,21748,421
+9594,SG Yoga Mat Classic,Sports,SG,1198.97,0,2.7,4012,353
+9595,WOW Perfume Edition,Beauty,WOW,2571.12,15,3.9,22667,410
+9596,Roadster Jeans 2026,Fashion,Roadster,3497.17,0,1.2,12557,386
+9597,Nivea Face Wash Lite,Beauty,Nivea,2602.04,0,1.4,6807,171
+9598,Puma Sneakers 2026,Fashion,Puma,3402.8,15,3.9,8935,467
+9599,Noise Camera Max,Electronics,Noise,59892.74,20,4.2,15184,230
+9600,Noise Tablet Plus,Electronics,Noise,44390.14,20,1.5,1108,59

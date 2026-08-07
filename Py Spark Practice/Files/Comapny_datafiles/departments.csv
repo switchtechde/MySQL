@@ -1,0 +1,11 @@
+dept_id,dept_name,location,annual_budget
+1,Engineering,Pune,5000000
+2,Data & Analytics,Bangalore,3500000
+3,Human Resources,Mumbai,1200000
+4,Sales,Delhi,2800000
+5,Marketing,Hyderabad,2000000
+6,Finance,Pune,1800000
+7,Customer Support,Chennai,1500000
+8,IT Infrastructure,Nagpur,2200000
+9,Product,Bangalore,2600000
+10,Legal,Mumbai,900000

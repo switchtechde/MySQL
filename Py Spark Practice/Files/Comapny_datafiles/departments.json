@@ -1,0 +1,62 @@
+[
+  {
+    "dept_id": 1,
+    "dept_name": "Engineering",
+    "location": "Pune",
+    "annual_budget": 5000000
+  },
+  {
+    "dept_id": 2,
+    "dept_name": "Data & Analytics",
+    "location": "Bangalore",
+    "annual_budget": 3500000
+  },
+  {
+    "dept_id": 3,
+    "dept_name": "Human Resources",
+    "location": "Mumbai",
+    "annual_budget": 1200000
+  },
+  {
+    "dept_id": 4,
+    "dept_name": "Sales",
+    "location": "Delhi",
+    "annual_budget": 2800000
+  },
+  {
+    "dept_id": 5,
+    "dept_name": "Marketing",
+    "location": "Hyderabad",
+    "annual_budget": 2000000
+  },
+  {
+    "dept_id": 6,
+    "dept_name": "Finance",
+    "location": "Pune",
+    "annual_budget": 1800000
+  },
+  {
+    "dept_id": 7,
+    "dept_name": "Customer Support",
+    "location": "Chennai",
+    "annual_budget": 1500000
+  },
+  {
+    "dept_id": 8,
+    "dept_name": "IT Infrastructure",
+    "location": "Nagpur",
+    "annual_budget": 2200000
+  },
+  {
+    "dept_id": 9,
+    "dept_name": "Product",
+    "location": "Bangalore",
+    "annual_budget": 2600000
+  },
+  {
+    "dept_id": 10,
+    "dept_name": "Legal",
+    "location": "Mumbai",
+    "annual_budget": 900000
+  }
+]
