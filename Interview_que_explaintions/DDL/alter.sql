@@ -4,6 +4,8 @@
 -- Difficulty : Beginner
 -- =========================================
 
+
+
 -- Add email column in employees table
 
 ALTER TABLE employees
