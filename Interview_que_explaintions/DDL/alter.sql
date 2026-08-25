@@ -19,6 +19,7 @@ ADD email VARCHAR(100);
 
 -- Add phone_number column in customers table
 
+
 ALTER TABLE customers
 ADD phone_number VARCHAR(15);
 
