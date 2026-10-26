@@ -34,7 +34,7 @@
 # 1. PRINT()
 # ============================================================
 
-print("Hello")
+'''print("Hello")
 
 # print() is used to display information on the screen.
 
@@ -123,7 +123,7 @@ print(
 
 # Syntax:
 #
-# f"some text {variable}"
+# f"some text {variable}"'''
 
 
 # ============================================================
@@ -132,7 +132,7 @@ print(
 
 # This is a single-line comment.
 
-print("Hello")
+#print("Hello")
 
 # Comments are ignored by Python.
 # They are used to explain code.
@@ -150,13 +150,13 @@ print("Hello")
 # - docstrings
 
 
-"""
-This is a multiline string.
+'''multiline_string = """
+                    This is a multiline string.
 
-It can contain multiple lines.
-"""
+                    It can contain multiple lines.
+                    """
 
-print("Code execution continues here.")
+print("Code execution continues here.", multiline_string)
 
 
 # ============================================================
@@ -355,14 +355,14 @@ print(11 // 3)
 # // gives the floor value.
 
 print(type(11 / 3))
-print(type(11 // 3))
+print(type(11 // 3))'''
 
 
 # ============================================================
 # 14. POWER OPERATOR **
 # ============================================================
 
-a = 10
+'''a = 10
 b = 2
 
 print(a ** b)
@@ -1081,7 +1081,7 @@ print(result)
 #
 # Check whether the email:
 # - starts with "student"
-# - ends with ".com"
+# - ends with ".com"'''
 
 
 # ============================================================
